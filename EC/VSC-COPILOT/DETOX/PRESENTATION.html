@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detox Presentation</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 40%, #f7b267 100%);
+            margin: 0; padding: 0;
+        }
+        .slide {
+            display: none;
+            background: linear-gradient(120deg, #fffbe7 60%, #b2d6ff 100%);
+            margin: 0 auto;
+            padding: 0;
+            width: 100vw;
+            min-height: 100vh;
+            box-sizing: border-box;
+            border-radius: 0;
+            box-shadow: none;
+            position: relative;
+            text-align: center;
+            border: none;
+            overflow: auto;
+        }
+        .active { display: flex; flex-direction: column; justify-content: center; align-items: center; min-height: 100vh; }
+        .cover {
+            background: #fff;
+            border: 4px solid #b2d6ff;
+            border-radius: 32px;
+            box-shadow: 0 8px 32px rgba(44, 62, 80, 0.18);
+            margin-top: 0;
+            padding: 40px 30px;
+            max-width: 600px;
+        }
+        .cover-title {
+            font-family: 'Pacifico', cursive, Arial, sans-serif;
+            font-size: 2.8em;
+            color: #1a3557;
+            margin-bottom: 0.2em;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 0 #b2d6ff, 4px 4px 0 #f7b267;
+        }
+        .cover-subtitle {
+            font-size: 1.3em;
+            color: #2a7ae2;
+            margin-bottom: 2em;
+        }
+        .author {
+            font-size:1.1em; color:#444; margin-bottom:2em;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+        .window-box {
+            background: #fff;
+            border: 2px solid #b2d6ff;
+            border-radius: 18px;
+            box-shadow: 0 2px 12px rgba(44, 62, 80, 0.10);
+            margin: 32px auto 24px auto;
+            max-width: 480px;
+            padding: 24px 18px 18px 18px;
+            text-align: left;
+            position: relative;
+        }
+        .window-title {
+            font-family: 'Pacifico', cursive, Arial, sans-serif;
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #2a7ae2;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .window-content ul {
+            font-size: 1.1em;
+            margin: 0 0 0 18px;
+            padding: 0;
+        }
+        .window-content li {
+            margin-bottom: 8px;
+        }
+        h1, h2 { color: #2a7ae2; font-family: 'Pacifico', cursive, Arial, sans-serif; }
+        ul { font-size: 1.1em; margin-top: 12px; text-align: left; display: block; }
+        .subtitle { color: #555; font-size: 1.1em; margin-bottom: 10px; }
+        .next-btn, .prev-btn {
+            margin: 18px 8px 0 8px;
+            padding: 12px 36px;
+            background: linear-gradient(90deg, #2a7ae2 60%, #b2d6ff 100%);
+            color: #fff;
+            border: none;
+            border-radius: 24px;
+            font-size: 1.1em;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 0 2px 8px rgba(44, 62, 80, 0.10);
+            transition: background 0.2s, transform 0.2s;
+        }
+        .next-btn:hover, .prev-btn:hover { background: #1a3557; transform: scale(1.05); }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Cover Slide -->
+    <div class="slide cover active" id="slide0">
+        <div class="cover-title">Detox Presentation</div>
+        <div class="cover-subtitle">Key Ideas for Reducing Technology Overuse</div>
+        <div class="author">By Coronel Maldonado Enrique Ismael and Gerardo Antonio Rodriguez Cabrera</div>
+        <button class="next-btn" onclick="nextSlide()">Next</button>
+    </div>
+    <!-- Slide 1 -->
+    <div class="slide" id="slide1">
+        <div class="slide-question" style="font-family: 'Pacifico', cursive, Arial, sans-serif; font-size: 2.1em; color: #1a3557; font-weight: bold; margin-bottom: 18px; text-align: center; letter-spacing: 2px; text-shadow: 2px 2px 0 #b2d6ff, 4px 4px 0 #f7b267; margin-top: 38px; line-height: 1.1;">How can you help stop tech overuse at school?</div>
+        <div class="cover" style="max-width: 300px; padding: 18px 10px; margin-top: 0;">
+            <div class="window-title" style="font-size: 1.2em;">At School</div>
+            <div class="window-content">
+                <ul>
+                    <li><b>Essential tool</b></li>
+                    <li>Understand subjects & hobbies</li>
+                    <li>Set limits</li>
+                    <li>Study only (no social media)</li>
+                    <li>Activities without tech</li>
+                    <li>Face-to-face talk</li>
+                    <li>Smart use</li>
+                </ul>
+            </div>
+        </div>
+        <button class="prev-btn" onclick="prevSlide()">Back</button>
+        <button class="next-btn" onclick="nextSlide()">Next</button>
+    </div>
+    <!-- Slide 2 -->
+    <div class="slide" id="slide2">
+        <div class="slide-question" style="font-family: 'Pacifico', cursive, Arial, sans-serif; font-size: 2.1em; color: #1a3557; font-weight: bold; margin-bottom: 18px; text-align: center; letter-spacing: 2px; text-shadow: 2px 2px 0 #b2d6ff, 4px 4px 0 #f7b267; margin-top: 38px; line-height: 1.1;">What can you do to use technology better?</div>
+        <div class="cover" style="max-width: 300px; padding: 18px 10px; margin-top: 0;">
+            <div class="window-title" style="font-size: 1.2em;">Personal Actions</div>
+            <div class="window-content">
+                <ul>
+                    <li><b>Learning with AI</b></li>
+                    <li>No dependence</li>
+                    <li>Study model</li>
+                    <li>Ask questions</li>
+                    <li>Practice with/without AI</li>
+                    <li>Tech = tool, not need</li>
+                </ul>
+            </div>
+        </div>
+        <button class="prev-btn" onclick="prevSlide()">Back</button>
+    </div>
+    <script>
+        let current = 0;
+        function nextSlide() {
+            document.getElementById('slide' + current).classList.remove('active');
+            current++;
+            if(document.getElementById('slide' + current)) {
+                document.getElementById('slide' + current).classList.add('active');
+            }
+        }
+        function prevSlide() {
+            document.getElementById('slide' + current).classList.remove('active');
+            current--;
+            if(document.getElementById('slide' + current)) {
+                document.getElementById('slide' + current).classList.add('active');
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Directorio de Talento Validado UPEMOR</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', Arial, sans-serif;
+      background: #FFFFFF;
+      margin: 0;
+      color: #222;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #6C3483;
+      padding: 16px 32px;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .logo-img {
+      width: 60px;
+      height: 60px;
+      background: #fff;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+    .logo-text {
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-weight: 700;
+      font-size: 1.3rem;
+      color: #B22222;
+      letter-spacing: 1px;
+      line-height: 1.1;
+    }
+    nav {
+      display: flex;
+      gap: 12px;
+    }
+    nav button, .main-btn {
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-weight: 700;
+      border-radius: 8px;
+      border: 2px solid #fff;
+      background: #fff;
+      color: #6C3483;
+      padding: 8px 20px;
+      cursor: pointer;
+      transition: background 0.2s, color 0.2s;
+    }
+    nav button.secondary {
+      background: #FFC107;
+      color: #222;
+      border: 2px solid #FFC107;
+    }
+    nav button:hover, .main-btn:hover {
+      background: #B22222;
+      color: #fff;
+      border-color: #B22222;
+    }
+    .search-bar {
+      width: 260px;
+      padding: 8px 14px;
+      border: 2px solid #fff;
+      border-radius: 8px;
+      font-size: 1rem;
+      margin: 0 16px;
+      background: #EDE7F6;
+      color: #222;
+      font-weight: bold;
+    }
+    .search-bar:focus {
+      outline: 2px solid #FFC107;
+    }
+    .container {
+      display: flex;
+      min-height: 90vh;
+      background: #fff;
+    }
+    aside {
+      background: #F5F5F5;
+      width: 260px;
+      padding: 32px 16px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 24px;
+    }
+    .profile-pic {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      background: #6C3483;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+    .user-info, .options {
+      width: 100%;
+      background: #fff;
+      border-radius: 8px;
+      padding: 16px;
+      box-shadow: 0 2px 8px #0001;
+      margin-bottom: 8px;
+    }
+    .options {
+      background: #EDE7F6;
+      color: #6C3483;
+      font-weight: bold;
+      text-align: center;
+    }
+    main {
+      flex: 1;
+      padding: 40px 48px;
+      background: #fff;
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+    }
+    .section-title {
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-size: 1.3rem;
+      color: #6C3483;
+      margin-bottom: 12px;
+    }
+    .card-list {
+      display: flex;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+    .card {
+      background: #F5F5F5;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px #0001;
+      padding: 24px;
+      min-width: 220px;
+      flex: 1 1 220px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 8px;
+    }
+    .card .name {
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-weight: 700;
+      color: #B22222;
+      font-size: 1.1rem;
+    }
+    .card .role {
+      color: #6C3483;
+      font-size: 0.95rem;
+      margin-bottom: 4px;
+    }
+    .card .skills {
+      font-size: 0.95rem;
+      color: #222;
+    }
+    .main-btn {
+      margin-top: 16px;
+      background: #FFC107;
+      color: #6C3483;
+      border: none;
+      font-size: 1rem;
+    }
+    .main-btn.secondary {
+      background: #fff;
+      color: #B22222;
+      border: 2px solid #B22222;
+    }
+    /* Login screen */
+    .login-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background: #6C3483;
+    }
+    .login-logo {
+      width: 120px;
+      height: 120px;
+      border-radius: 8px;
+      background: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 24px;
+      overflow: hidden;
+    }
+    .login-logo img {
+      width: 100px;
+      height: auto;
+      display: block;
+    }
+    .login-form {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      width: 300px;
+    }
+    .login-form label {
+      color: #fff;
+      font-weight: bold;
+      margin-bottom: 2px;
+      margin-left: 2px;
+    }
+    .login-form input {
+      padding: 10px 14px;
+      border: 2px solid #fff;
+      border-radius: 8px;
+      font-size: 1rem;
+      background: #D1C4E9;
+      color: #222;
+    }
+    .login-form button {
+      background: #FFC107;
+      color: #222;
+      border: none;
+      border-radius: 8px;
+      padding: 10px;
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-weight: 700;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .login-form button:hover {
+      background: #B22222;
+      color: #fff;
+    }
+    /* Responsive */
+    @media (max-width: 900px) {
+      .container { flex-direction: column; }
+      aside { flex-direction: row; width: 100%; justify-content: space-around; }
+      main { padding: 24px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Pantalla de Login -->
+  <div class="login-container" id="loginScreen">
+    <div class="login-logo">
+      <img src="https://play-lh.googleusercontent.com/rDe8WAyXddbMIBjPhHjNWXXup5SqeJPxZuL8Mt2xv-ZLd33-yXlaaAAivmY_BcwyxQ" alt="Upemor Logo">
+    </div>
+    <form class="login-form" onsubmit="showMain(event)">
+      <label for="user">Usuario</label>
+      <input id="user" type="text" placeholder="Usuario" required>
+      <label for="pass">Contraseña</label>
+      <input id="pass" type="password" placeholder="Contraseña" required>
+      <button type="submit">INICIAR SESION</button>
+    </form>
+  </div>
+
+  <!-- Pantalla Principal -->
+  <div id="mainScreen" style="display:none;">
+    <header>
+      <div class="logo">
+        <div class="logo-img"><img src="https://play-lh.googleusercontent.com/rDe8WAyXddbMIBjPhHjNWXXup5SqeJPxZuL8Mt2xv-ZLd33-yXlaaAAivmY_BcwyxQ" alt="Upemor Logo" style="width:48px;"></div>
+        <div class="logo-text">Upemor<br><span style="font-size:0.8rem; color:#222; font-weight:400;">Universidad Politécnica</span></div>
+      </div>
+      <input class="search-bar" type="text" placeholder="Buscador...">
+      <nav>
+        <button>Iniciar Sesión</button>
+        <button class="secondary">Registrarse</button>
+        <button id="menuBtn" style="background:#fff; color:#6C3483; border:2px solid #6C3483; font-size:1.3rem; padding:4px 12px;">&#9776;</button>
+      </nav>
+      <!-- Menú lateral -->
+      <div id="sideMenu" style="display:none; position:fixed; top:0; right:0; width:240px; height:100vh; background:#fff; box-shadow:-2px 0 12px #0002; z-index:1000; flex-direction:column;">
+        <div style="background:#6C3483; color:#fff; font-family:'Montserrat'; font-weight:bold; font-size:1.1rem; padding:20px 16px; display:flex; align-items:center; justify-content:space-between;">
+          Menú
+          <button onclick="closeMenu()" style="background:none; border:none; color:#fff; font-size:1.5rem; cursor:pointer;">&times;</button>
+        </div>
+        <div id="menuOptions" style="display:flex; flex-direction:column; gap:0;">
+          <button class="menu-item" onclick="logout()">Cerrar Sesión</button>
+          <button class="menu-item" onclick="showConfig()">Configuración</button>
+          <button class="menu-item" onclick="showProyectosAlumno()">Agregar Proyecto</button>
+          <button class="menu-item" onclick="showAyuda()">Ayuda</button>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <aside>
+        <div class="profile-pic"><span style="font-size:2.2rem;">&#128100;</span></div>
+        <div class="user-info">
+          <div><strong>Nombre:</strong> Fernanda Pérez</div>
+          <div><strong>Carrera:</strong> TICs</div>
+          <div><strong>Matrícula:</strong> 20231234</div>
+          <div style="margin-top:12px; font-size:0.95rem; color:#6C3483; font-weight:bold; cursor:pointer;" onclick="showProyectosAlumno()">Agregar Proyecto +</div>
+          <div style="font-size:0.95rem; color:#6C3483; font-weight:bold; cursor:pointer;">Agregar CV +</div>
+        </div>
+        <div class="options">Alumno Upemor</div>
+      </aside>
+      <main>
+        <div>
+          <div class="section-title">Vacantes Disponibles</div>
+          <div class="card-list">
+            <div class="card">
+              <div class="name">Empresa ABC</div>
+              <div class="role">Vacante: Desarrollador Java</div>
+              <div class="skills">Modalidad: Remoto<br>Requisitos: Java, SQL</div>
+              <button class="main-btn secondary">Ver Empresa</button>
+            </div>
+            <div class="card">
+              <div class="name">Empresa XYZ</div>
+              <div class="role">Vacante: UX/UI Designer</div>
+              <div class="skills">Modalidad: Presencial<br>Requisitos: Figma, Creatividad</div>
+              <button class="main-btn secondary">Ver Empresa</button>
+            </div>
+          </div>
+        </div>
+        <!-- Sección de proyectos del alumno (oculta por defecto) -->
+        <div id="proyectosAlumno" style="display:none; margin-top:32px;">
+          <div style="display:flex; align-items:center; gap:16px; margin-bottom:12px;">
+            <div class="section-title" style="margin-bottom:0;">Proyectos del Alumno</div>
+            <button id="guardarBtn" onclick="mostrarFormProyecto()" style="background:#6C3483; color:#fff; border:none; border-radius:6px; padding:6px 16px; font-family:'Montserrat'; font-weight:700; font-size:1rem; cursor:pointer;">Guardar</button>
+            <button id="eliminarBtn" onclick="eliminarSeleccionados()" style="background:#B22222; color:#fff; border:none; border-radius:6px; padding:6px 16px; font-family:'Montserrat'; font-weight:700; font-size:1rem; cursor:pointer;">Eliminar</button>
+          </div>
+          <!-- Formulario para agregar proyecto -->
+          <form id="formProyecto" style="display:none; background:#F5F5F5; border-radius:10px; padding:18px 20px; margin-bottom:18px; box-shadow:0 2px 8px #0001; gap:12px; display:flex; flex-wrap:wrap; align-items:center;">
+            <input id="nombreProyecto" type="text" placeholder="Nombre del proyecto" required style="flex:1; min-width:180px; padding:8px; border-radius:6px; border:1.5px solid #6C3483; font-size:1rem;">
+            <select id="tipoProyecto" onchange="cambiarTipoProyecto()" style="padding:8px; border-radius:6px; border:1.5px solid #6C3483; font-size:1rem;">
+              <option value="file">Archivo</option>
+              <option value="link">Link</option>
+            </select>
+            <input id="fileProyecto" type="file" style="display:block;">
+            <input id="linkProyecto" type="url" placeholder="URL del proyecto" style="display:none; min-width:180px; padding:8px; border-radius:6px; border:1.5px solid #6C3483; font-size:1rem;">
+            <button type="submit" style="background:#4CAF50; color:#fff; border:none; border-radius:6px; padding:8px 18px; font-family:'Montserrat'; font-weight:700; font-size:1rem; cursor:pointer;">Agregar</button>
+            <button type="button" onclick="ocultarFormProyecto()" style="background:#B22222; color:#fff; border:none; border-radius:6px; padding:8px 18px; font-family:'Montserrat'; font-weight:700; font-size:1rem; cursor:pointer;">Cancelar</button>
+          </form>
+          <div class="card-list" id="listaProyectos">
+            <div class="card" style="position:relative;">
+              <input type="checkbox" class="select-proyecto" style="position:absolute; right:18px; top:18px; width:18px; height:18px;">
+              <div class="name">App de Gestión Escolar</div>
+              <div class="skills">Java, MySQL</div>
+              <div class="role">Proyecto universitario para gestión de alumnos y materias.</div>
+              <button class="main-btn" onclick="alert('Visualización de archivo no disponible en demo')">Visualizar</button>
+              <div style="color:#4CAF50; font-size:0.95rem; margin-top:4px;">Guardado</div>
+            </div>
+            <div class="card" style="position:relative;">
+              <input type="checkbox" class="select-proyecto" style="position:absolute; right:18px; top:18px; width:18px; height:18px;">
+              <div class="name">Landing Page ONG</div>
+              <div class="skills">HTML, CSS, UX/UI</div>
+              <div class="role">Sitio web para organización sin fines de lucro.</div>
+              <button class="main-btn" onclick="window.open('https://ejemplo-ong.org','_blank')">Ir al Link</button>
+              <div style="color:#4CAF50; font-size:0.95rem; margin-top:4px;">Guardado</div>
+            </div>
+            <div class="card" style="position:relative;">
+              <input type="checkbox" class="select-proyecto" style="position:absolute; right:18px; top:18px; width:18px; height:18px;">
+              <div class="name">Nuevo Proyecto</div>
+              <div class="skills">React, Node.js</div>
+              <div class="role">Descripción breve del nuevo proyecto agregado.</div>
+              <button class="main-btn" onclick="alert('Visualización de archivo no disponible en demo')">Visualizar</button>
+              <div style="color:#4CAF50; font-size:0.95rem; margin-top:4px;">Guardado</div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <!-- Pantalla: Perfil Alumno -->
+  <div id="alumnoPerfil" style="display:none;">
+    <header>
+      <div class="logo">
+        <div class="logo-img"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Logo_UPEMOR.png" alt="Upemor Logo" style="width:48px;"></div>
+        <div class="logo-text">Upemor<br><span style="font-size:0.8rem; color:#222; font-weight:400;">Universidad Politécnica</span></div>
+      </div>
+      <nav>
+        <button onclick="showMainScreen()">Regresar</button>
+        <button class="secondary" style="display:none;">Cerrar Sesión</button>
+      </nav>
+    </header>
+    <main style="padding:40px; max-width:700px; margin:auto;">
+      <div class="section-title">Perfil de Alumno</div>
+      <div style="display:flex; gap:32px; align-items:center;">
+        <div class="profile-pic" style="width:120px; height:120px;">FP</div>
+        <div>
+          <div><strong>Nombre:</strong> Fernanda Pérez</div>
+          <div><strong>Carrera:</strong> TICs</div>
+          <div><strong>Cuatrimestre:</strong> 7°</div>
+          <div><strong>Correo:</strong> fernanda@upemor.edu.mx</div>
+          <div><strong>Habilidades:</strong> Java, SQL, Trabajo en equipo</div>
+        </div>
+      </div>
+      <div style="margin-top:32px;">
+        <div class="section-title">Portafolio de Proyectos</div>
+        <ul>
+          <li>App de Gestión Escolar (Java, MySQL)</li>
+          <li>Landing Page para ONG (HTML, CSS, UX/UI)</li>
+        </ul>
+      </div>
+    </main>
+  </div>
+
+  <!-- Pantalla: Perfil Empresa -->
+  <div id="empresaPerfil" style="display:none;">
+    <header>
+      <div class="logo">
+        <div class="logo-img"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Logo_UPEMOR.png" alt="Upemor Logo" style="width:48px;"></div>
+        <div class="logo-text">Upemor<br><span style="font-size:0.8rem; color:#222; font-weight:400;">Universidad Politécnica</span></div>
+      </div>
+      <nav>
+        <button onclick="showMainScreen()">Inicio</button>
+      </nav>
+    </header>
+    <main style="padding:40px; max-width:700px; margin:auto;">
+      <div class="section-title">Perfil de Empresa</div>
+      <div style="display:flex; gap:32px; align-items:center;">
+        <div class="profile-pic" style="width:120px; height:120px; background:#FFC107; color:#6C3483;">ABC</div>
+        <div>
+          <div><strong>Nombre:</strong> Empresa ABC</div>
+          <div><strong>Sector:</strong> Tecnología</div>
+          <div><strong>Vacantes:</strong> 2</div>
+          <div><strong>Correo:</strong> contacto@abc.com</div>
+        </div>
+      </div>
+      <div style="margin-top:32px;">
+        <div class="section-title">Vacantes Disponibles</div>
+        <ul>
+          <li>Desarrollador Java (Remoto)</li>
+          <li>Diseñador UX/UI (Presencial)</li>
+        </ul>
+      </div>
+    </main>
+  </div>
+
+  <!-- Pantalla: Referencias y Validación -->
+  <div id="referencias" style="display:none;">
+    <header>
+      <div class="logo">
+        <div class="logo-img"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Logo_UPEMOR.png" alt="Upemor Logo" style="width:48px;"></div>
+        <div class="logo-text">Upemor<br><span style="font-size:0.8rem; color:#222; font-weight:400;">Universidad Politécnica</span></div>
+      </div>
+      <nav>
+        <button onclick="showMainScreen()">Inicio</button>
+        <button class="secondary">Cerrar Sesión</button>
+      </nav>
+    </header>
+    <main style="padding:40px; max-width:700px; margin:auto;">
+      <div class="section-title">Referencias y Validación</div>
+      <div style="margin-bottom:24px;">
+        <strong>Solicitudes de Referencia:</strong>
+        <ul>
+          <li>Fernanda Pérez solicita referencia a Prof. Ramírez <button class="main-btn" style="margin-left:12px;">Aceptar</button> <button class="main-btn secondary">Rechazar</button></li>
+        </ul>
+      </div>
+      <div>
+        <strong>Referencias Activas:</strong>
+        <ul>
+          <li>Prof. Ramírez - Valida habilidades en Java y SQL</li>
+        </ul>
+      </div>
+    </main>
+  </div>
+
+  <script>
+    function showMain(e) {
+      e.preventDefault();
+      document.getElementById('loginScreen').style.display = 'none';
+      document.getElementById('mainScreen').style.display = '';
+    }
+    function showMainScreen() {
+      document.getElementById('mainScreen').style.display = '';
+      document.getElementById('alumnoPerfil').style.display = 'none';
+      document.getElementById('empresaPerfil').style.display = 'none';
+      document.getElementById('referencias').style.display = 'none';
+    }
+    // Menú lateral
+    document.getElementById('menuBtn').onclick = function() {
+      document.getElementById('sideMenu').style.display = 'flex';
+    };
+    function closeMenu() {
+      document.getElementById('sideMenu').style.display = 'none';
+    }
+    // Cambia menú lateral si estamos en empresa
+    function setMenuEmpresa() {
+      document.getElementById('menuOptions').innerHTML = `
+        <button class="menu-item" onclick="showMainScreen(); closeMenu();">Regresar</button>
+        <button class="menu-item" onclick="showConfig()">Configuración</button>
+        <button class="menu-item" onclick="showProyectosAlumno()">Agregar Proyecto</button>
+        <button class="menu-item" onclick="showAyuda()">Ayuda</button>
+      `;
+    }
+    function setMenuAlumno() {
+      document.getElementById('menuOptions').innerHTML = `
+        <button class="menu-item" onclick="logout()">Cerrar Sesión</button>
+        <button class="menu-item" onclick="showConfig()">Configuración</button>
+        <button class="menu-item" onclick="showProyectosAlumno()">Agregar Proyecto</button>
+        <button class="menu-item" onclick="showAyuda()">Ayuda</button>
+      `;
+    }
+    // Simulación de navegación
+    document.addEventListener('DOMContentLoaded', function() {
+      // Simular click en "Ver Empresa" para mostrar perfil de empresa
+      document.querySelectorAll('.main-btn.secondary').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          document.getElementById('mainScreen').style.display = 'none';
+          document.getElementById('empresaPerfil').style.display = '';
+          setMenuEmpresa();
+        });
+      });
+      setMenuAlumno();
+    });
+    // Mostrar sección de proyectos del alumno en la principal
+    function showProyectosAlumno() {
+      var seccion = document.getElementById('proyectosAlumno');
+      seccion.style.display = '';
+      // Si no hay proyectos, asegurarse que la sección y el formulario sigan visibles
+      var lista = document.getElementById('listaProyectos');
+      if (!lista.hasChildNodes()) {
+        document.getElementById('formProyecto').style.display = 'flex';
+      }
+      closeMenu();
+    }
+    // Mostrar/ocultar formulario de proyecto
+    function mostrarFormProyecto() {
+      document.getElementById('formProyecto').style.display = 'flex';
+    }
+    function ocultarFormProyecto() {
+      document.getElementById('formProyecto').reset();
+      document.getElementById('formProyecto').style.display = 'none';
+    }
+    function cambiarTipoProyecto() {
+      var tipo = document.getElementById('tipoProyecto').value;
+      document.getElementById('fileProyecto').style.display = tipo === 'file' ? 'block' : 'none';
+      document.getElementById('linkProyecto').style.display = tipo === 'link' ? 'block' : 'none';
+    }
+    // Agregar proyecto dinámicamente
+    document.getElementById('formProyecto').onsubmit = function(e) {
+      e.preventDefault();
+      var nombre = document.getElementById('nombreProyecto').value;
+      var tipo = document.getElementById('tipoProyecto').value;
+      var lista = document.getElementById('listaProyectos');
+      var skills = 'Sin especificar';
+      var desc = '';
+      var card = document.createElement('div');
+      card.className = 'card';
+      card.style.position = 'relative';
+      var checkbox = document.createElement('input');
+      checkbox.type = 'checkbox';
+      checkbox.className = 'select-proyecto';
+      checkbox.style.position = 'absolute';
+      checkbox.style.right = '18px';
+      checkbox.style.top = '18px';
+      checkbox.style.width = '18px';
+      checkbox.style.height = '18px';
+      card.appendChild(checkbox);
+      var nameDiv = document.createElement('div');
+      nameDiv.className = 'name';
+      nameDiv.textContent = nombre;
+      card.appendChild(nameDiv);
+      var skillsDiv = document.createElement('div');
+      skillsDiv.className = 'skills';
+      skillsDiv.textContent = skills;
+      card.appendChild(skillsDiv);
+      var roleDiv = document.createElement('div');
+      roleDiv.className = 'role';
+      roleDiv.textContent = desc;
+      card.appendChild(roleDiv);
+      if(tipo === 'file') {
+        var fileInput = document.getElementById('fileProyecto');
+        if(fileInput.files.length > 0) {
+          var file = fileInput.files[0];
+          var url = URL.createObjectURL(file);
+          var btn = document.createElement('button');
+          btn.className = 'main-btn';
+          btn.textContent = 'Visualizar';
+          btn.onclick = function() { window.open(url, '_blank'); };
+          card.appendChild(btn);
+        }
+      } else {
+        var link = document.getElementById('linkProyecto').value;
+        var btn = document.createElement('button');
+        btn.className = 'main-btn';
+        btn.textContent = 'Ir al Link';
+        btn.onclick = function() { window.open(link, '_blank'); };
+        card.appendChild(btn);
+      }
+      var verif = document.createElement('div');
+      verif.style.color = '#4CAF50';
+      verif.style.fontSize = '0.95rem';
+      verif.style.marginTop = '4px';
+      verif.textContent = 'Guardado';
+      card.appendChild(verif);
+      lista.appendChild(card);
+      ocultarFormProyecto();
+    }
+    // Eliminar proyectos seleccionados
+    function eliminarSeleccionados() {
+      var lista = document.getElementById('listaProyectos');
+      var checks = lista.querySelectorAll('.select-proyecto:checked');
+      checks.forEach(function(chk) {
+        chk.parentElement.remove();
+      });
+      // Si ya no hay proyectos, mantener visible la sección y el formulario
+      if (!lista.hasChildNodes()) {
+        document.getElementById('formProyecto').style.display = 'flex';
+      }
+    }
+    // Placeholder para configuración y ayuda
+    function showConfig() {
+      // Configuración con opción de cerrar sesión
+      let configHtml = `
+        <div style='padding:24px; max-width:340px; background:#fff; border-radius:10px; box-shadow:0 2px 8px #0002; position:fixed; top:60px; right:40px; z-index:2000;'>
+          <div style='font-family:Montserrat; font-weight:700; color:#6C3483; font-size:1.2rem; margin-bottom:12px;'>Configuración</div>
+          <button onclick='logout()' style='background:#B22222; color:#fff; border:none; border-radius:6px; padding:8px 18px; font-family:Montserrat; font-weight:700; font-size:1rem; cursor:pointer; margin-bottom:8px;'>Cerrar Sesión</button><br>
+          <button onclick='cerrarConfig()' style='background:#6C3483; color:#fff; border:none; border-radius:6px; padding:6px 16px; font-family:Montserrat; font-weight:700; font-size:1rem; cursor:pointer;'>Cerrar</button>
+        </div>
+        <div id='configOverlay' style='position:fixed; top:0; left:0; width:100vw; height:100vh; background:#0005; z-index:1999;' onclick='cerrarConfig()'></div>
+      `;
+      let div = document.createElement('div');
+      div.id = 'configModal';
+      div.innerHTML = configHtml;
+      document.body.appendChild(div);
+      closeMenu();
+    }
+    function cerrarConfig() {
+      let modal = document.getElementById('configModal');
+      if(modal) modal.remove();
+    }
+    function showAyuda() {
+      alert('Ayuda y soporte (en desarrollo)');
+      closeMenu();
+    }
+    function logout() {
+      alert('Sesión cerrada');
+      location.reload();
+    }
+  </script>
+</body>
+</html>

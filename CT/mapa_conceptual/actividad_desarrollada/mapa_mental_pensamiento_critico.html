@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mapa Mental: Pensamiento Crítico</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f8f9fa; }
+    .central {
+      background: #4e73df;
+      color: #fff;
+      font-size: 2em;
+      font-weight: bold;
+      text-align: center;
+      border-radius: 20px;
+      margin: 30px auto 20px auto;
+      width: 400px;
+      padding: 20px 0;
+      box-shadow: 0 2px 8px #bbb;
+      <!-- Nodo central -->
+      <circle cx="500" cy="350" r="90" fill="#4e73df" />
+      <text x="500" y="350" text-anchor="middle" fill="#fff" font-size="22" font-weight="bold" dy=".3em">Pensamiento Crítico</text>
+
+      <!-- Ramas principales -->
+      <!-- ¿Qué es? -->
+      <path d="M500,350 Q400,200 250,180" stroke="#222" stroke-width="3" fill="none"/>
+      <rect x="120" y="140" rx="20" ry="20" width="180" height="80" fill="#e2eafc" stroke="#4e73df" stroke-width="2"/>
+      <text x="210" y="170" text-anchor="middle" font-size="16" font-weight="bold" fill="#2e59d9">¿Qué es?</text>
+      <text x="210" y="190" text-anchor="middle" font-size="13" fill="#444">Analizar, evaluar y sintetizar</text>
+      <text x="210" y="205" text-anchor="middle" font-size="13" fill="#444">información objetivamente.</text>
+
+      <!-- Importancia -->
+      <path d="M500,350 Q650,180 800,120" stroke="#222" stroke-width="3" fill="none"/>
+      <rect x="820" y="80" rx="20" ry="20" width="180" height="90" fill="#e2eafc" stroke="#4e73df" stroke-width="2"/>
+      <text x="910" y="110" text-anchor="middle" font-size="16" font-weight="bold" fill="#2e59d9">Importancia</text>
+      <text x="910" y="130" text-anchor="middle" font-size="13" fill="#444">Decisiones informadas,</text>
+      <text x="910" y="145" text-anchor="middle" font-size="13" fill="#444">resolución de problemas,</text>
+      <text x="910" y="160" text-anchor="middle" font-size="13" fill="#444">creatividad.</text>
+
+      <!-- Usos -->
+      <path d="M500,350 Q800,400 900,500" stroke="#222" stroke-width="3" fill="none"/>
+      <rect x="870" y="520" rx="20" ry="20" width="180" height="90" fill="#e2eafc" stroke="#4e73df" stroke-width="2"/>
+      <text x="960" y="550" text-anchor="middle" font-size="16" font-weight="bold" fill="#2e59d9">Usos</text>
+      <text x="960" y="570" text-anchor="middle" font-size="13" fill="#444">Problemas cotidianos,</text>
+      <text x="960" y="585" text-anchor="middle" font-size="13" fill="#444">evaluación, debate,</text>
+      <text x="960" y="600" text-anchor="middle" font-size="13" fill="#444">innovación.</text>
+
+      <!-- Tipos de pensamiento -->
+      <path d="M500,350 Q500,120 500,60" stroke="#222" stroke-width="3" fill="none"/>
+      <rect x="410" y="10" rx="20" ry="20" width="180" height="90" fill="#e2eafc" stroke="#4e73df" stroke-width="2"/>
+      <text x="500" y="40" text-anchor="middle" font-size="16" font-weight="bold" fill="#2e59d9">Tipos</text>
+      <text x="500" y="60" text-anchor="middle" font-size="13" fill="#444">Analítico, creativo,</text>
+      <text x="500" y="75" text-anchor="middle" font-size="13" fill="#444">práctico, sistémico.</text>
+
+      <!-- Habilidades clave -->
+      <path d="M500,350 Q200,400 100,600" stroke="#222" stroke-width="3" fill="none"/>
+      <rect x="10" y="620" rx="20" ry="20" width="220" height="120" fill="#e2eafc" stroke="#4e73df" stroke-width="2"/>
+      <text x="120" y="650" text-anchor="middle" font-size="16" font-weight="bold" fill="#2e59d9">Habilidades clave</text>
+      <text x="120" y="670" text-anchor="middle" font-size="13" fill="#444">Análisis, evaluación,</text>
+      <text x="120" y="685" text-anchor="middle" font-size="13" fill="#444">inferencia, explicación,</text>
+      <text x="120" y="700" text-anchor="middle" font-size="13" fill="#444">resolución, decisión.</text>
+
+      <!-- Características trabajo académico -->
+      <path d="M500,350 Q700,600 800,650" stroke="#222" stroke-width="3" fill="none"/>
+      <rect x="820" y="670" rx="20" ry="20" width="220" height="110" fill="#e2eafc" stroke="#4e73df" stroke-width="2"/>
+      <text x="930" y="700" text-anchor="middle" font-size="16" font-weight="bold" fill="#2e59d9">Características</text>
+      <text x="930" y="720" text-anchor="middle" font-size="13" fill="#444">Análisis, justificación,</text>
+      <text x="930" y="735" text-anchor="middle" font-size="13" fill="#444">inferencias, explicación,</text>
+      <text x="930" y="750" text-anchor="middle" font-size="13" fill="#444">soluciones, decisiones.</text>
+
+      <!-- Recomendaciones -->
+      <path d="M500,350 Q300,100 100,80" stroke="#222" stroke-width="3" fill="none"/>
+      <rect x="10" y="10" rx="20" ry="20" width="220" height="110" fill="#e2eafc" stroke="#4e73df" stroke-width="2"/>
+      <text x="120" y="40" text-anchor="middle" font-size="16" font-weight="bold" fill="#2e59d9">Recomendaciones</text>
+      <text x="120" y="60" text-anchor="middle" font-size="13" fill="#444">Estructura clara, ejemplos,</text>
+      <text x="120" y="75" text-anchor="middle" font-size="13" fill="#444">argumentación, lenguaje,</text>
+      <text x="120" y="90" text-anchor="middle" font-size="13" fill="#444">conclusión.</text>
+
+      <!-- Resumen -->
+      <rect x="390" y="600" rx="20" ry="20" width="220" height="70" fill="#36b9cc" stroke="#2e59d9" stroke-width="2"/>
+      <text x="500" y="630" text-anchor="middle" font-size="15" fill="#fff">El pensamiento crítico es esencial para analizar,</text>
+      <text x="500" y="645" text-anchor="middle" font-size="15" fill="#fff">evaluar y resolver problemas de manera efectiva.</text>
+    </svg>
+  </div>
+      <div class="rama">
+        <h3>Tipos de pensamiento</h3>
+        <div class="subramas">
+          <div class="subrama"><b>Analítico:</b> Descompone la información en partes.</div>
+          <div class="subrama"><b>Creativo:</b> Genera ideas nuevas y originales.</div>
+          <div class="subrama"><b>Práctico:</b> Aplica conocimientos para resolver situaciones.</div>
+          <div class="subrama"><b>Sistémico:</b> Considera el contexto y relaciones.</div>
+        </div>
+      </div>
+      <div class="rama">
+        <h3>Habilidades clave</h3>
+        <div class="subramas">
+          <div class="subrama"><b>Análisis:</b> Examinar y descomponer información.<div class="ejemplo">Ej: Distinguir hechos de opiniones.</div></div>
+          <div class="subrama"><b>Evaluación:</b> Valorar credibilidad y relevancia.<div class="ejemplo">Ej: Evaluar la veracidad de una noticia.</div></div>
+          <div class="subrama"><b>Inferencia:</b> Extraer conclusiones lógicas.<div class="ejemplo">Ej: Inferir cansancio por lenguaje corporal.</div></div>
+          <div class="subrama"><b>Explicación:</b> Comunicar ideas de forma clara.<div class="ejemplo">Ej: Explicar por qué se eligió una solución.</div></div>
+          <div class="subrama"><b>Resolución:</b> Proponer alternativas y elegir la mejor.<div class="ejemplo">Ej: Resolver un conflicto con soluciones justas.</div></div>
+          <div class="subrama"><b>Toma de decisiones:</b> Elegir la mejor alternativa.<div class="ejemplo">Ej: Decidir carrera tras analizar intereses.</div></div>
+        </div>
+      </div>
+      <div class="rama">
+        <h3>Características de un trabajo académico</h3>
+        <div class="subramas">
+          <div class="subrama">Análisis y descomposición de información compleja.</div>
+          <div class="subrama">Justificación de fuentes y argumentos.</div>
+          <div class="subrama">Inferencias lógicas y anticipación de consecuencias.</div>
+          <div class="subrama">Explicación clara y estructurada.</div>
+          <div class="subrama">Propuesta y argumentación de soluciones.</div>
+          <div class="subrama">Decisiones fundamentadas y razonadas.</div>
+        </div>
+      </div>
+      <div class="rama">
+        <h3>Recomendaciones para obtener un 10</h3>
+        <div class="subramas">
+          <div class="subrama">Estructura clara y lógica.</div>
+          <div class="subrama">Ejemplos y justificaciones en cada habilidad.</div>
+          <div class="subrama">Argumentación sólida y fundamentada en evidencia.</div>
+          <div class="subrama">Lenguaje formal, preciso y accesible.</div>
+          <div class="subrama">Conclusión que resuma la importancia del pensamiento crítico.</div>
+        </div>
+      </div>
+    </div>
+    <div class="resumen">
+      <b>Resumen:</b> El pensamiento crítico es esencial para analizar, evaluar y resolver problemas de manera efectiva. Un trabajo sobresaliente debe demostrar el dominio de sus habilidades clave, justificar cada paso y decisión, y presentar la información de forma clara, lógica y argumentativa.
+    </div>
+  </div>
+</body>
+</html>
