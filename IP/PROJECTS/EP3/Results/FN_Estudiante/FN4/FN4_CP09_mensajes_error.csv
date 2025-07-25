@@ -1,7 +1,7 @@
 Nombre del sistema/proyecto,Upework
 Requisito a probar,Verificación de mensajes de error claros
-Autor del caso de prueba,Gerardo Rodriguez
-Fecha de creacion,24-jul-25
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
 Ejecutor del caso de prueba,n/a
 Fecha de ejecucion,n/a
 
@@ -10,7 +10,7 @@ Condiciones de ejecucion,El estudiante debe estar registrado y autenticado en el
 Entrada,Realizar acciones que generen errores al postularse.
 
 No.,Accion,Resultado esperado,Resultado obtenido
-1,El estudiante realiza una acción incorrecta al postularse.,El sistema muestra un mensaje de error claro y comprensible,
+1,El estudiante accede a la sección de <Ofertas>, selecciona una oferta y da 'clic' en el botón <Postularse> provocando un error (por ejemplo, deja campos vacíos o selecciona una oferta no disponible).,El sistema muestra un mensaje de error claro y comprensible que indica la causa del problema y no registra la postulación,
 
 Comentario de evaluacion,El sistema comunica correctamente los errores al usuario durante la postulación.
 Aprobo,____

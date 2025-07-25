@@ -1,19 +1,19 @@
 Nombre del sistema/proyecto,Upework
-Requisito a probar,Agregar proyecto al perfil de estudiante
-Autor del caso de prueba,Gerardo Rodriguez
-Fecha de creacion,23-jul-25
+Requisito a probar,Fallo por sesión duplicada
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
 Ejecutor del caso de prueba,n/a
 Fecha de ejecucion,n/a
 
-Objetivo,Verificar que el estudiante puede visualizar correctamente los proyectos y el CV registrados en su perfil.
-Condiciones de ejecucion,El estudiante debe estar registrado y tener al menos un proyecto y un CV en su perfil.
-Entrada,Perfil de estudiante con proyectos y CV registrados
+Objetivo,Verificar que el sistema no permite iniciar sesión simultáneamente con el mismo usuario estudiante en dos dispositivos o navegadores diferentes.
+Condiciones de ejecucion,El usuario estudiante debe estar registrado y autenticado en un dispositivo, e intentar iniciar sesión en otro dispositivo o navegador.
+Entrada,Usuario y contraseña válidos del estudiante en dos dispositivos o navegadores
 
 No.,Accion,Resultado esperado,Resultado obtenido
-1,El estudiante accede a la seccion de proyectos y CV en su perfil.,Se muestra la lista de proyectos y el archivo CV registrados,
-2,El estudiante revisa la informacion mostrada.,El sistema presenta correctamente los datos de los proyectos y el CV,
+1,El estudiante inicia sesión en un dispositivo o navegador.,El sistema permite el acceso y muestra la página principal del estudiante,
+2,El estudiante intenta iniciar sesión con el mismo usuario en otro dispositivo o navegador.,El sistema muestra un mensaje de error indicando que ya existe una sesión activa y no permite el acceso,
 
-Comentario de evaluacion,El sistema permite visualizar correctamente los proyectos y el CV registrados en el perfil del estudiante.
+Comentario de evaluacion,El sistema rechaza el acceso simultáneo y muestra el mensaje de error correspondiente cuando ya existe una sesión activa.
 Aprobo,____
 Fallo,____
 Acciones correctivas,

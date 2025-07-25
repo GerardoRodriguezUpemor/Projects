@@ -1,18 +1,19 @@
+
 Nombre del sistema/proyecto,Upework
 Requisito a probar,Verificación de logs de intentos de acceso
-Autor del caso de prueba,Gerardo Rodriguez
-Fecha de creacion,24-jul-25
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
 Ejecutor del caso de prueba,n/a
 Fecha de ejecucion,n/a
 
-Objetivo,Verificar que el sistema registra correctamente los intentos de acceso de los administradores.
+Objetivo,Verificar que el sistema registra correctamente todos los intentos de acceso (exitosos y fallidos) de los administradores en los logs.
 Condiciones de ejecucion,El usuario debe estar registrado como administrador en el sistema.
-Entrada,Intentos de inicio de sesión exitosos y fallidos.
+Entrada,Realizar intentos de inicio de sesión exitosos y fallidos con el usuario administrador.
 
 No.,Accion,Resultado esperado,Resultado obtenido
-1,El usuario realiza varios intentos de inicio de sesión (correctos y fallidos).,El sistema registra todos los intentos en los logs de acceso,
+1,El usuario realiza varios intentos de inicio de sesión como administrador, incluyendo intentos exitosos y fallidos (usuario incorrecto, contraseña incorrecta, campos vacíos, etc.).,El sistema registra cada intento de acceso (exitoso o fallido) en los logs de acceso, incluyendo fecha, hora, usuario y resultado del intento,
 
-Comentario de evaluacion,El sistema registra correctamente los intentos de acceso.
+Comentario de evaluacion,El sistema registra correctamente y de forma detallada todos los intentos de acceso de los administradores.
 Aprobo,____
 Fallo,____
 Acciones correctivas,

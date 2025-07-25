@@ -1,20 +1,21 @@
+
 Nombre del sistema/proyecto,Upework
 Requisito a probar,Fallo por formato incorrecto de archivo
-Autor del caso de prueba,Gerardo Rodriguez
-Fecha de creacion,24-jul-25
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
 Ejecutor del caso de prueba,n/a
 Fecha de ejecucion,n/a
 
-Objetivo,Verificar que el sistema muestra un error si se selecciona un formato de archivo no soportado.
+Objetivo,Verificar que el sistema muestra un error si se selecciona un formato de archivo no soportado al exportar postulaciones.
 Condiciones de ejecucion,El usuario administrador ha iniciado sesión correctamente y existen postulaciones registradas.
-Entrada,Seleccionar formato: 'XYZ' (no soportado)
+Entrada,Seleccionar formato: 'XYZ' (no soportado).
 
 No.,Accion,Resultado esperado,Resultado obtenido
-1,Ingresar a la sección de exportación de postulaciones.,Se muestra la opción de exportar postulaciones,
-2,Seleccionar un formato de archivo no soportado.,El sistema detecta el formato incorrecto,
-3,Hacer clic en 'Exportar'.,El sistema muestra un mensaje de error indicando que el formato no es válido y no genera archivo,
+1,El usuario accede a la sección <Exportación de postulaciones> desde el panel de administración.,El sistema muestra la opción de exportar postulaciones,
+2,El usuario selecciona un formato de archivo no soportado.,El sistema detecta el formato incorrecto y deshabilita la opción de exportar,
+3,El usuario da 'clic' en el botón <Exportar>.,El sistema muestra un mensaje de error indicando que el formato no es válido y no genera archivo,
 
-Comentario de evaluacion,El sistema valida correctamente los formatos de archivo soportados.
+Comentario de evaluacion,El sistema valida correctamente los formatos de archivo soportados al exportar postulaciones.
 Aprobo,____
 Fallo,____
 Acciones correctivas,

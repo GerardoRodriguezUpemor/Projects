@@ -1,0 +1,20 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Visualización de postulaciones con información incompleta
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema indica claramente los campos incompletos al visualizar postulaciones con información incompleta.
+Condiciones de ejecucion,El usuario administrador ha iniciado sesión correctamente y existen postulaciones con información incompleta.
+Entrada,
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,El usuario accede a la sección <Postulaciones> desde el panel de administración.,El sistema muestra la lista de postulaciones registradas,
+2,El usuario visualiza la lista de postulaciones.,El sistema muestra las postulaciones e indica claramente los campos incompletos,
+
+Comentario de evaluacion,El sistema indica correctamente los campos incompletos en las postulaciones.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

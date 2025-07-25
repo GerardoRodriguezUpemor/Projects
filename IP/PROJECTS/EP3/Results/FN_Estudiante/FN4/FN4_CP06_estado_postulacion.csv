@@ -1,7 +1,7 @@
 Nombre del sistema/proyecto,Upework
 Requisito a probar,Visualización de estado de postulación
-Autor del caso de prueba,Gerardo Rodriguez
-Fecha de creacion,24-jul-25
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
 Ejecutor del caso de prueba,n/a
 Fecha de ejecucion,n/a
 
@@ -10,7 +10,7 @@ Condiciones de ejecucion,El estudiante debe estar registrado y autenticado en el
 Entrada,Acceso a la sección de postulaciones en el perfil del estudiante.
 
 No.,Accion,Resultado esperado,Resultado obtenido
-1,El estudiante accede a la sección de postulaciones.,El sistema muestra el estado actual de cada postulación (pendiente, aceptada, rechazada, etc.),
+1,El estudiante accede a la sección de <Postulaciones> en su perfil y revisa el estado de una postulación enviada.,El sistema muestra el estado actualizado de la postulación en la lista de postulaciones (pendiente, aceptada, rechazada, etc.),
 
 Comentario de evaluacion,El sistema informa correctamente el estado de las postulaciones.
 Aprobo,____

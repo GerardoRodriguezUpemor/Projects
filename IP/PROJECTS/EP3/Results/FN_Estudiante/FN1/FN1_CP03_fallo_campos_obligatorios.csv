@@ -1,19 +1,19 @@
 Nombre del sistema/proyecto,Upework
-Requisito a probar,Agregar proyecto al perfil de estudiante
-Autor del caso de prueba,Gerardo Rodriguez
-Fecha de creacion,23-jul-25
+Requisito a probar,Fallo por contraseña incorrecta estudiante
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
 Ejecutor del caso de prueba,n/a
 Fecha de ejecucion,n/a
 
-Objetivo,Verificar que el sistema rechaza el registro si faltan campos obligatorios en el proyecto o CV.
-Condiciones de ejecucion,El estudiante debe estar registrado y autenticado en el sistema.
-Entrada,Datos incompletos de proyecto o archivo CV sin campos requeridos
+Objetivo,Verificar que el sistema no permite iniciar sesión con una contraseña incorrecta para un usuario estudiante válido.
+Condiciones de ejecucion,El usuario estudiante debe estar registrado en el sistema y la contraseña ingresada debe ser incorrecta.
+Entrada,Usuario válido y contraseña incorrecta
 
 No.,Accion,Resultado esperado,Resultado obtenido
-1,El estudiante accede a la seccion de proyectos o CV en su perfil.,Se muestra el formulario para agregar proyecto o subir CV,
-2,El estudiante deja uno o mas campos obligatorios vacios y pulsa el boton guardar o subir.,El sistema muestra un mensaje de error indicando los campos faltantes y no permite el registro,
+1,El estudiante accede a la página de "inicio de sesión" y da 'clic' en el botón <Iniciar sesión>.,Se muestra el formulario de inicio de sesión,
+2,El estudiante ingresa su usuario válido en el campo <Usuario> y una contraseña incorrecta en el campo <Contraseña>, luego da 'clic' en el botón <Iniciar sesión>.,El sistema muestra un mensaje de error indicando que la contraseña es incorrecta y no permite el acceso,
 
-Comentario de evaluacion,El sistema rechaza el registro si faltan campos obligatorios en el proyecto o CV.
+Comentario de evaluacion,El sistema rechaza el acceso cuando la contraseña es incorrecta y muestra el mensaje de error correspondiente.
 Aprobo,____
 Fallo,____
 Acciones correctivas,

@@ -1,19 +1,20 @@
+
 Nombre del sistema/proyecto,Upework
 Requisito a probar,Registro de acciones en el sistema
-Autor del caso de prueba,Gerardo Rodriguez
-Fecha de creacion,24-jul-25
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
 Ejecutor del caso de prueba,n/a
 Fecha de ejecucion,n/a
 
-Objetivo,Verificar que las acciones realizadas sobre estudiantes quedan registradas correctamente en el sistema.
-Condiciones de ejecucion,El usuario administrador ha iniciado sesión correctamente y realiza acciones sobre estudiantes.
-Entrada,
+Objetivo,Verificar que todas las acciones realizadas sobre estudiantes (visualización, búsqueda, filtrado, ordenamiento) quedan registradas correctamente en los logs/auditoría del sistema.
+Condiciones de ejecucion,El usuario administrador ha iniciado sesión correctamente y realiza acciones sobre estudiantes en el sistema.
+Entrada,Realizar acciones de visualización, búsqueda, filtrado u ordenamiento de estudiantes y consultar los registros del sistema.
 
 No.,Accion,Resultado esperado,Resultado obtenido
-1,Realizar acciones de visualización, búsqueda, filtrado u ordenamiento de estudiantes.,El sistema registra correctamente las acciones realizadas,
-2,Consultar el registro de acciones del sistema.,Las acciones quedan registradas en los logs/auditoría,
+1,El usuario realiza acciones de visualización, búsqueda, filtrado u ordenamiento de estudiantes desde la sección correspondiente.,El sistema registra correctamente cada acción realizada en los logs/auditoría,
+2,El usuario consulta el registro de acciones del sistema.,Las acciones sobre estudiantes aparecen correctamente registradas en los logs/auditoría,
 
-Comentario de evaluacion,El sistema registra correctamente todas las acciones realizadas sobre estudiantes.
+Comentario de evaluacion,El sistema registra correctamente todas las acciones realizadas sobre estudiantes en los logs/auditoría.
 Aprobo,____
 Fallo,____
 Acciones correctivas,

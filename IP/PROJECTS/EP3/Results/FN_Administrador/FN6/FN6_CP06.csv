@@ -1,21 +1,22 @@
+
 Nombre del sistema/proyecto,Upework
 Requisito a probar,Fallo por conexión perdida durante la exportación
-Autor del caso de prueba,Gerardo Rodriguez
-Fecha de creacion,24-jul-25
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
 Ejecutor del caso de prueba,n/a
 Fecha de ejecucion,n/a
 
-Objetivo,Verificar que el sistema muestra un error y no exporta las postulaciones si se pierde la conexión.
+Objetivo,Verificar que el sistema muestra un error y no exporta las postulaciones si se pierde la conexión durante el proceso de exportación.
 Condiciones de ejecucion,El usuario administrador ha iniciado sesión correctamente y existen postulaciones registradas.
-Entrada,Seleccionar formato: 'CSV'
+Entrada,Seleccionar formato: 'CSV' y simular la pérdida de conexión antes de exportar.
 
 No.,Accion,Resultado esperado,Resultado obtenido
-1,Ingresar a la sección de exportación de postulaciones.,Se muestra la opción de exportar postulaciones,
-2,Seleccionar el formato de exportación.,Se selecciona el formato 'CSV',
-3,Simular pérdida de conexión antes de exportar.,El sistema detecta la pérdida de conexión,
-4,Hacer clic en 'Exportar'.,El sistema muestra un mensaje de error por pérdida de conexión y no genera archivo,
+1,El usuario accede a la sección <Exportación de postulaciones> desde el panel de administración.,El sistema muestra la opción de exportar postulaciones,
+2,El usuario selecciona el formato de exportación 'CSV'.,El sistema habilita la opción para exportar en formato CSV,
+3,El usuario simula la pérdida de conexión antes de dar 'clic' en <Exportar>.,El sistema detecta la pérdida de conexión y muestra un mensaje de error,
+4,El usuario da 'clic' en el botón <Exportar>.,El sistema no genera el archivo y mantiene la pantalla de exportación,
 
-Comentario de evaluacion,El sistema maneja correctamente la pérdida de conexión durante la exportación de postulaciones.
+Comentario de evaluacion,El sistema maneja correctamente la pérdida de conexión durante la exportación de postulaciones y no genera archivo.
 Aprobo,____
 Fallo,____
 Acciones correctivas,

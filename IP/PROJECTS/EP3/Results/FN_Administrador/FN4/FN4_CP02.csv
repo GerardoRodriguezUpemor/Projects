@@ -1,0 +1,20 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Visualización de detalles de postulación
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema permite visualizar correctamente los detalles de una postulación seleccionada.
+Condiciones de ejecucion,El usuario administrador ha iniciado sesión correctamente y existe al menos una postulación registrada.
+Entrada,Seleccionar postulación existente
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,El usuario accede a la sección <Postulaciones> desde el panel de administración.,El sistema muestra la lista de postulaciones registradas,
+2,El usuario selecciona una postulación registrada y da 'clic' en <Ver detalles>.,El sistema muestra correctamente todos los detalles de la postulación seleccionada,
+
+Comentario de evaluacion,El sistema permite visualizar correctamente los detalles de la postulación seleccionada.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

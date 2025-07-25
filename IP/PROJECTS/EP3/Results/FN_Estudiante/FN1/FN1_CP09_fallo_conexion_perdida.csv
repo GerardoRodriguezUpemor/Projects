@@ -1,19 +1,19 @@
 Nombre del sistema/proyecto,Upework
-Requisito a probar,Agregar proyecto al perfil de estudiante
-Autor del caso de prueba,Gerardo Rodriguez
-Fecha de creacion,23-jul-25
+Requisito a probar,Fallo por expiración de sesión
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
 Ejecutor del caso de prueba,n/a
 Fecha de ejecucion,n/a
 
-Objetivo,Verificar que el sistema muestra un mensaje de error si se pierde la conexion al intentar guardar un proyecto o CV.
-Condiciones de ejecucion,El estudiante debe estar registrado y autenticado en el sistema. Se simula la perdida de conexion al guardar.
-Entrada,Datos de proyecto o CV a guardar
+Objetivo,Verificar que el sistema muestra un mensaje de error y solicita volver a iniciar sesión cuando la sesión del usuario estudiante ha expirado.
+Condiciones de ejecucion,El usuario estudiante debe estar autenticado y dejar inactiva la sesión hasta que expire el tiempo configurado.
+Entrada,Sesión de usuario estudiante expirada por inactividad
 
 No.,Accion,Resultado esperado,Resultado obtenido
-1,El estudiante accede a la seccion de proyectos o CV en su perfil.,Se muestra el formulario para agregar proyecto o subir CV,
-2,El estudiante llena los campos requeridos y pulsa el boton guardar o subir, pero se pierde la conexion.,El sistema muestra un mensaje de error indicando la perdida de conexion y no guarda los datos,
+1,El estudiante permanece inactivo en el sistema hasta que la sesión expira.,El sistema cierra la sesión automáticamente y redirige a la página de inicio de sesión,
+2,El estudiante intenta realizar una acción después de la expiración de la sesión.,El sistema muestra un mensaje de error indicando que la sesión ha expirado y solicita volver a iniciar sesión,
 
-Comentario de evaluacion,El sistema muestra un mensaje de error si se pierde la conexion al intentar guardar un proyecto o CV.
+Comentario de evaluacion,El sistema cierra la sesión y solicita autenticación nuevamente cuando la sesión expira por inactividad.
 Aprobo,____
 Fallo,____
 Acciones correctivas,

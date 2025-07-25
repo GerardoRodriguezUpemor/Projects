@@ -1,7 +1,7 @@
 Nombre del sistema/proyecto,Upework
 Requisito a probar,Fallo por oferta expirada o no disponible
-Autor del caso de prueba,Gerardo Rodriguez
-Fecha de creacion,24-jul-25
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
 Ejecutor del caso de prueba,n/a
 Fecha de ejecucion,n/a
 
@@ -10,7 +10,7 @@ Condiciones de ejecucion,El estudiante debe estar registrado y autenticado en el
 Entrada,Intentar postularse a una oferta expirada o no disponible.
 
 No.,Accion,Resultado esperado,Resultado obtenido
-1,El estudiante selecciona una oferta expirada o no disponible y pulsa postularse.,El sistema muestra un mensaje de error indicando que la oferta no está disponible,
+1,El estudiante accede a la sección de <Ofertas>, selecciona una oferta expirada o no disponible y da 'clic' en el botón <Postularse>.,El sistema muestra un mensaje de error indicando que la oferta no está disponible y no permite registrar la postulación,
 
 Comentario de evaluacion,El sistema valida correctamente la disponibilidad de la oferta.
 Aprobo,____

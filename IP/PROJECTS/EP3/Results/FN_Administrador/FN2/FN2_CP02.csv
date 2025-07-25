@@ -1,20 +1,20 @@
+
 Nombre del sistema/proyecto,Upework
 Requisito a probar,Fallo por campos obligatorios vacíos
-Autor del caso de prueba,Gerardo Rodriguez
-Fecha de creacion,24-jul-25
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
 Ejecutor del caso de prueba,n/a
 Fecha de ejecucion,n/a
 
-Objetivo,Verificar que el sistema no permite registrar una empresa si hay campos obligatorios vacíos.
+Objetivo,Verificar que el sistema no permite registrar una empresa si uno o más campos obligatorios están vacíos.
 Condiciones de ejecucion,El usuario administrador ha iniciado sesión correctamente.
-Entrada,Nombre de empresa: '', RFC: '', Dirección: '', Teléfono: '', Email: ''
+Entrada,Dejar vacío uno o más de los siguientes campos en el formulario: Nombre de empresa, RFC, Dirección, Teléfono, Email.
 
 No.,Accion,Resultado esperado,Resultado obtenido
-1,Ingresar a la sección de registro de empresas.,Se muestra el formulario de registro de empresas,
-2,Dejar uno o más campos obligatorios vacíos.,El sistema detecta los campos vacíos,
-3,Hacer clic en 'Registrar'.,El sistema muestra mensajes de error indicando los campos obligatorios faltantes y no permite el registro,
+1,El usuario accede a la sección <Registro de empresas> desde el panel de administración.,El sistema muestra el formulario de registro de empresas,
+2,El usuario deja vacío uno o más campos obligatorios y da 'clic' en el botón <Registrar>.,El sistema muestra mensajes de error indicando los campos obligatorios faltantes y no permite el registro de la empresa,
 
-Comentario de evaluacion,El sistema valida que no se puedan registrar empresas con campos obligatorios vacíos.
+Comentario de evaluacion,El sistema valida correctamente que no se puedan registrar empresas con campos obligatorios vacíos.
 Aprobo,____
 Fallo,____
 Acciones correctivas,

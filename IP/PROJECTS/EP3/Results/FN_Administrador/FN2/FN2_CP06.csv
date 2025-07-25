@@ -1,21 +1,21 @@
+
 Nombre del sistema/proyecto,Upework
 Requisito a probar,Eliminación de empresa registrada
-Autor del caso de prueba,Gerardo Rodriguez
-Fecha de creacion,24-jul-25
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
 Ejecutor del caso de prueba,n/a
 Fecha de ejecucion,n/a
 
-Objetivo,Verificar que el sistema permite eliminar una empresa registrada.
+Objetivo,Verificar que el sistema permite eliminar una empresa registrada correctamente.
 Condiciones de ejecucion,El usuario administrador ha iniciado sesión y existe al menos una empresa registrada.
-Entrada,Seleccionar empresa existente
+Entrada,Seleccionar una empresa existente para eliminarla.
 
 No.,Accion,Resultado esperado,Resultado obtenido
-1,Ingresar a la sección de empresas.,Se muestra la lista de empresas registradas,
-2,Seleccionar una empresa registrada.,Se muestran los datos de la empresa seleccionada,
-3,Hacer clic en 'Eliminar'.,El sistema solicita confirmación,
-4,Confirmar la eliminación.,La empresa se elimina correctamente y desaparece de la lista,
+1,El usuario accede a la sección <Empresas> desde el panel de administración.,El sistema muestra la lista de empresas registradas,
+2,El usuario selecciona una empresa registrada y da 'clic' en <Eliminar>.,El sistema solicita confirmación para eliminar la empresa,
+3,El usuario confirma la eliminación.,El sistema elimina correctamente la empresa y la elimina de la lista de empresas registradas,
 
-Comentario de evaluacion,El sistema permite eliminar correctamente una empresa registrada.
+Comentario de evaluacion,El sistema permite eliminar correctamente una empresa registrada y la elimina de la lista.
 Aprobo,____
 Fallo,____
 Acciones correctivas,

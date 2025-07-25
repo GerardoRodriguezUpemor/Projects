@@ -1,7 +1,7 @@
 Nombre del sistema/proyecto,Upework
 Requisito a probar,Agregar proyecto con caracteres especiales en el nombre
-Autor del caso de prueba,Gerardo Rodriguez
-Fecha de creacion,23-jul-25
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
 Ejecutor del caso de prueba,n/a
 Fecha de ejecucion,n/a
 
@@ -10,8 +10,8 @@ Condiciones de ejecucion,El estudiante debe estar registrado y autenticado en el
 Entrada,Datos de proyecto con caracteres especiales en el nombre.
 
 No.,Accion,Resultado esperado,Resultado obtenido
-1,El estudiante accede a la sección de proyectos en su perfil.,Se muestra el formulario para agregar proyecto,
-2,El estudiante ingresa un nombre con caracteres especiales y pulsa guardar.,El sistema valida el nombre y muestra un mensaje de éxito o error según corresponda,
+1,El estudiante accede a la sección de <Proyectos> en su perfil y da 'clic' en el botón <Agregar proyecto>.,El sistema muestra el formulario para agregar un nuevo proyecto,
+2,El estudiante ingresa un nombre con caracteres especiales en el campo <Nombre> y da 'clic' en el botón <Guardar>.,El sistema valida el nombre y muestra un mensaje de éxito si es permitido o un mensaje de error si no lo es,
 
 Comentario de evaluacion,El sistema valida correctamente los caracteres permitidos en el nombre del proyecto.
 Aprobo,____

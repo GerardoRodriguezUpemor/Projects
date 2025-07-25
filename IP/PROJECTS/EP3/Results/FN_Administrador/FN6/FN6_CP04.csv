@@ -1,16 +1,17 @@
+
 Nombre del sistema/proyecto,Upework
 Requisito a probar,Fallo por ausencia de postulaciones
-Autor del caso de prueba,Gerardo Rodriguez
-Fecha de creacion,24-jul-25
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
 Ejecutor del caso de prueba,n/a
 Fecha de ejecucion,n/a
 
 Objetivo,Verificar que el sistema muestra un mensaje adecuado cuando no existen postulaciones para exportar.
 Condiciones de ejecucion,El usuario administrador ha iniciado sesión correctamente y no existen postulaciones registradas.
-Entrada,
+Entrada,Intentar exportar cuando no existen postulaciones registradas.
 
 No.,Accion,Resultado esperado,Resultado obtenido
-1,Ingresar a la sección de exportación de postulaciones.,El sistema muestra un mensaje indicando que no hay postulaciones para exportar y no genera archivo,
+1,El usuario accede a la sección <Exportación de postulaciones> desde el panel de administración.,El sistema muestra un mensaje indicando que no hay postulaciones para exportar y no genera archivo,
 
 Comentario de evaluacion,El sistema informa correctamente cuando no existen postulaciones para exportar.
 Aprobo,____

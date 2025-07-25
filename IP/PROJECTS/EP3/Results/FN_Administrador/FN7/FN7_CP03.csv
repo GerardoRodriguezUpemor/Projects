@@ -1,19 +1,20 @@
+
 Nombre del sistema/proyecto,Upework
 Requisito a probar,Visualización de lista de estudiantes
-Autor del caso de prueba,Gerardo Rodriguez
-Fecha de creacion,24-jul-25
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
 Ejecutor del caso de prueba,n/a
 Fecha de ejecucion,n/a
 
-Objetivo,Verificar que el sistema permite visualizar correctamente la lista de estudiantes registrados.
-Condiciones de ejecucion,El usuario administrador ha iniciado sesión correctamente y existen estudiantes registrados.
-Entrada,
+Objetivo,Verificar que el sistema permite visualizar correctamente la lista completa de estudiantes registrados.
+Condiciones de ejecucion,El usuario administrador ha iniciado sesión correctamente y existen estudiantes registrados en el sistema.
+Entrada,Acceder a la sección de estudiantes para visualizar la lista.
 
 No.,Accion,Resultado esperado,Resultado obtenido
-1,Ingresar a la sección de estudiantes.,Se muestra la lista de estudiantes registrados,
-2,Visualizar la lista de estudiantes.,Se muestra la lista completa de estudiantes registrados,
+1,El usuario accede a la sección <Estudiantes> desde el panel de administración.,El sistema muestra la lista completa de estudiantes registrados,
+2,El usuario revisa la lista de estudiantes en pantalla.,La lista muestra correctamente todos los estudiantes registrados y su información básica,
 
-Comentario de evaluacion,El sistema permite visualizar correctamente la lista de estudiantes registrados.
+Comentario de evaluacion,El sistema permite visualizar correctamente la lista completa de estudiantes registrados.
 Aprobo,____
 Fallo,____
 Acciones correctivas,

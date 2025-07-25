@@ -1,19 +1,19 @@
 Nombre del sistema/proyecto,Upework
-Requisito a probar,Agregar proyecto al perfil de estudiante
-Autor del caso de prueba,Gerardo Rodriguez
-Fecha de creacion,23-jul-25
+Requisito a probar,Recuperación de contraseña
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
 Ejecutor del caso de prueba,n/a
 Fecha de ejecucion,n/a
 
-Objetivo,Verificar que los mensajes de error sean comprensibles y utiles para el usuario al agregar proyectos y CV.
-Condiciones de ejecucion,El estudiante debe estar registrado y autenticado en el sistema. Se provocan errores intencionalmente (campos vacios, formato no permitido, conexion perdida, etc.)
-Entrada,Datos erroneos o condiciones de error al agregar proyecto o CV
+Objetivo,Verificar que el sistema permite recuperar la contraseña de un usuario estudiante mediante el proceso de recuperación.
+Condiciones de ejecucion,El estudiante debe estar en la página de inicio de sesión y seleccionar la opción de recuperación de contraseña.
+Entrada,Correo electrónico registrado del estudiante
 
 No.,Accion,Resultado esperado,Resultado obtenido
-1,El estudiante realiza una accion que provoca un error (por ejemplo, deja campos vacios o sube archivo no permitido).,El sistema muestra un mensaje de error claro y comprensible que indica la causa del problema,
-2,El estudiante revisa el mensaje de error.,El mensaje es util y permite al usuario corregir el error,
+1,El estudiante accede a la página de "inicio de sesión" y selecciona la opción <¿Olvidaste tu contraseña?>.,El sistema muestra el formulario de recuperación de contraseña,
+2,El estudiante ingresa su correo electrónico registrado y da 'clic' en el botón <Recuperar contraseña>.,El sistema envía un correo electrónico con instrucciones para restablecer la contraseña,
 
-Comentario de evaluacion,El sistema muestra mensajes de error claros y utiles para el usuario.
+Comentario de evaluacion,El sistema permite recuperar la contraseña correctamente mediante el proceso de recuperación.
 Aprobo,____
 Fallo,____
 Acciones correctivas,

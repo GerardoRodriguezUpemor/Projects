@@ -1,21 +1,21 @@
+
 Nombre del sistema/proyecto,Upework
 Requisito a probar,Eliminación de oferta registrada
-Autor del caso de prueba,Gerardo Rodriguez
-Fecha de creacion,24-jul-25
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
 Ejecutor del caso de prueba,n/a
 Fecha de ejecucion,n/a
 
-Objetivo,Verificar que el sistema permite eliminar una oferta registrada.
+Objetivo,Verificar que el sistema permite eliminar una oferta registrada correctamente.
 Condiciones de ejecucion,El usuario administrador ha iniciado sesión y existe al menos una oferta registrada.
-Entrada,Seleccionar oferta existente
+Entrada,Seleccionar una oferta existente para eliminarla.
 
 No.,Accion,Resultado esperado,Resultado obtenido
-1,Ingresar a la sección de ofertas.,Se muestra la lista de ofertas registradas,
-2,Seleccionar una oferta registrada.,Se muestran los datos de la oferta seleccionada,
-3,Hacer clic en 'Eliminar'.,El sistema solicita confirmación,
-4,Confirmar la eliminación.,La oferta se elimina correctamente y desaparece de la lista,
+1,El usuario accede a la sección <Ofertas> desde el panel de administración.,El sistema muestra la lista de ofertas registradas,
+2,El usuario selecciona una oferta registrada y da 'clic' en <Eliminar>.,El sistema solicita confirmación para eliminar la oferta,
+3,El usuario confirma la eliminación.,El sistema elimina correctamente la oferta y la elimina de la lista de ofertas registradas,
 
-Comentario de evaluacion,El sistema permite eliminar correctamente una oferta registrada.
+Comentario de evaluacion,El sistema permite eliminar correctamente una oferta registrada y la elimina de la lista.
 Aprobo,____
 Fallo,____
 Acciones correctivas,

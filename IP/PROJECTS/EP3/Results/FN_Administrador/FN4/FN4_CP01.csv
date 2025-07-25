@@ -1,0 +1,20 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Visualización exitosa de postulaciones
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema permite visualizar la lista completa de postulaciones registradas.
+Condiciones de ejecucion,El usuario administrador ha iniciado sesión correctamente y existen postulaciones registradas.
+Entrada,
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,El usuario accede a la sección <Postulaciones> desde el panel de administración.,El sistema muestra la lista completa de postulaciones registradas,
+2,El usuario visualiza la lista de postulaciones en pantalla.,Se muestran correctamente todas las postulaciones registradas,
+
+Comentario de evaluacion,El sistema permite visualizar correctamente la lista de postulaciones registradas.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

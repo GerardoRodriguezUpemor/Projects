@@ -1,19 +1,20 @@
+
 Nombre del sistema/proyecto,Upework
 Requisito a probar,Fallo por campos vacíos
-Autor del caso de prueba,Gerardo Rodriguez
-Fecha de creacion,24-jul-25
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
 Ejecutor del caso de prueba,n/a
 Fecha de ejecucion,n/a
 
-Objetivo,Verificar que el sistema no permite el acceso si los campos de usuario o contraseña están vacíos.
+Objetivo,Verificar que el sistema no permite el acceso si los campos de <Usuario> o <Contraseña> están vacíos en el formulario de inicio de sesión de administrador.
 Condiciones de ejecucion,El usuario debe estar registrado como administrador en el sistema.
-Entrada,Usuario y/o contraseña vacíos.
+Entrada,Dejar vacío el campo <Usuario>, el campo <Contraseña> o ambos.
 
 No.,Accion,Resultado esperado,Resultado obtenido
-1,El usuario accede a la página de inicio de sesión.,Se muestra el formulario de inicio de sesión,
-2,El usuario deja uno o ambos campos vacíos y pulsa iniciar sesión.,El sistema muestra un mensaje de error indicando que los campos son obligatorios,
+1,El usuario accede a la página de <Inicio de sesión> y da 'clic' en el botón <Iniciar sesión>.,El sistema muestra el formulario de inicio de sesión para administrador,
+2,El usuario deja vacío el campo <Usuario> y/o <Contraseña> y da 'clic' en el botón <Iniciar sesión>.,El sistema muestra un mensaje de error indicando que ambos campos son obligatorios y no permite el acceso,
 
-Comentario de evaluacion,El sistema valida correctamente los campos obligatorios.
+Comentario de evaluacion,El sistema valida correctamente que los campos obligatorios no estén vacíos.
 Aprobo,____
 Fallo,____
 Acciones correctivas,

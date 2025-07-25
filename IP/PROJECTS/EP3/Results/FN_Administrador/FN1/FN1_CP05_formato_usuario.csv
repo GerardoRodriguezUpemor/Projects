@@ -1,19 +1,20 @@
+
 Nombre del sistema/proyecto,Upework
 Requisito a probar,Fallo por formato incorrecto de usuario
-Autor del caso de prueba,Gerardo Rodriguez
-Fecha de creacion,24-jul-25
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
 Ejecutor del caso de prueba,n/a
 Fecha de ejecucion,n/a
 
-Objetivo,Verificar que el sistema no permite el acceso si el usuario tiene un formato incorrecto.
+Objetivo,Verificar que el sistema no permite el acceso si el campo <Usuario> no cumple con el formato requerido en el formulario de inicio de sesión de administrador.
 Condiciones de ejecucion,El usuario debe estar registrado como administrador en el sistema.
-Entrada,Usuario con formato incorrecto y contraseña válida.
+Entrada,Ingresar un valor con formato incorrecto en el campo <Usuario> y una contraseña válida.
 
 No.,Accion,Resultado esperado,Resultado obtenido
-1,El usuario accede a la página de inicio de sesión.,Se muestra el formulario de inicio de sesión,
-2,El usuario ingresa un usuario con formato incorrecto y pulsa iniciar sesión.,El sistema muestra un mensaje de error sobre el formato del usuario,
+1,El usuario accede a la página de <Inicio de sesión> y da 'clic' en el botón <Iniciar sesión>.,El sistema muestra el formulario de inicio de sesión para administrador,
+2,El usuario ingresa un valor con formato incorrecto en el campo <Usuario> y una contraseña válida, luego da 'clic' en el botón <Iniciar sesión>.,El sistema muestra un mensaje de error indicando que el formato del usuario es incorrecto y no permite el acceso,
 
-Comentario de evaluacion,El sistema valida correctamente el formato del usuario.
+Comentario de evaluacion,El sistema valida correctamente el formato del campo usuario.
 Aprobo,____
 Fallo,____
 Acciones correctivas,

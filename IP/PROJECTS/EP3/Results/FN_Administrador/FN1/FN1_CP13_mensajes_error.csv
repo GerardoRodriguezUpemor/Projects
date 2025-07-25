@@ -1,18 +1,19 @@
+
 Nombre del sistema/proyecto,Upework
 Requisito a probar,Verificación de mensajes de error claros y accesibles
-Autor del caso de prueba,Gerardo Rodriguez
-Fecha de creacion,24-jul-25
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
 Ejecutor del caso de prueba,n/a
 Fecha de ejecucion,n/a
 
-Objetivo,Verificar que el sistema muestra mensajes de error claros y accesibles durante el inicio de sesión.
+Objetivo,Verificar que el sistema muestra mensajes de error claros y accesibles durante el inicio de sesión de administrador.
 Condiciones de ejecucion,El usuario debe estar registrado como administrador en el sistema.
-Entrada,Realizar acciones que generen errores al iniciar sesión.
+Entrada,Realizar acciones incorrectas al intentar iniciar sesión (usuario incorrecto, contraseña incorrecta, campos vacíos, etc.).
 
 No.,Accion,Resultado esperado,Resultado obtenido
-1,El usuario realiza una acción incorrecta al iniciar sesión.,El sistema muestra un mensaje de error claro y comprensible,
+1,El usuario realiza una acción incorrecta al intentar iniciar sesión (por ejemplo, usuario o contraseña incorrectos, campos vacíos, etc.).,El sistema muestra un mensaje de error claro, comprensible y accesible que indica la causa del error y no permite el acceso,
 
-Comentario de evaluacion,El sistema comunica correctamente los errores al usuario.
+Comentario de evaluacion,El sistema comunica correctamente los errores al usuario de forma clara y accesible.
 Aprobo,____
 Fallo,____
 Acciones correctivas,

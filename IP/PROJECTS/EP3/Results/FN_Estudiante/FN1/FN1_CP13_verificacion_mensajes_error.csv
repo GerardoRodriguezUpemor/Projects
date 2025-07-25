@@ -1,0 +1,20 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Verificación de mensajes de error claros y accesibles
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que los mensajes de error mostrados durante el inicio de sesión sean claros, comprensibles y accesibles para el usuario estudiante.
+Condiciones de ejecucion,El estudiante debe provocar errores intencionalmente (usuario incorrecto, contraseña incorrecta, campos vacíos, etc.)
+Entrada,Datos erróneos o condiciones de error al iniciar sesión
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,El estudiante realiza una acción que provoca un error (por ejemplo, deja campos vacíos o ingresa datos incorrectos).,El sistema muestra un mensaje de error claro y comprensible que indica la causa del problema,
+2,El estudiante revisa el mensaje de error.,El mensaje es útil y permite al usuario corregir el error,
+
+Comentario de evaluacion,El sistema muestra mensajes de error claros y accesibles para el usuario.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

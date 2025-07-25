@@ -1,7 +1,7 @@
 Nombre del sistema/proyecto,Upework
 Requisito a probar,Fallo por campos obligatorios vacíos
-Autor del caso de prueba,Gerardo Rodriguez
-Fecha de creacion,24-jul-25
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
 Ejecutor del caso de prueba,n/a
 Fecha de ejecucion,n/a
 
@@ -10,7 +10,7 @@ Condiciones de ejecucion,El estudiante debe estar registrado y autenticado en el
 Entrada,Intentar postularse dejando campos obligatorios vacíos.
 
 No.,Accion,Resultado esperado,Resultado obtenido
-1,El estudiante intenta postularse sin llenar todos los campos obligatorios.,El sistema muestra un mensaje de error indicando los campos faltantes,
+1,El estudiante accede a la sección de <Ofertas>, selecciona una oferta válida y da 'clic' en el botón <Postularse> dejando uno o más campos obligatorios vacíos en el formulario de postulación.,El sistema muestra un mensaje de error indicando los campos faltantes y no permite registrar la postulación,
 
 Comentario de evaluacion,El sistema valida correctamente los campos obligatorios en la postulación.
 Aprobo,____

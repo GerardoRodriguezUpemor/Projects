@@ -1,7 +1,7 @@
 Nombre del sistema/proyecto,Upework
 Requisito a probar,Fallo por duplicidad de postulación
-Autor del caso de prueba,Gerardo Rodriguez
-Fecha de creacion,24-jul-25
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
 Ejecutor del caso de prueba,n/a
 Fecha de ejecucion,n/a
 
@@ -10,7 +10,7 @@ Condiciones de ejecucion,El estudiante debe estar registrado y autenticado en el
 Entrada,Intentar postularse dos veces a la misma oferta.
 
 No.,Accion,Resultado esperado,Resultado obtenido
-1,El estudiante intenta postularse a la misma oferta dos veces.,El sistema muestra un mensaje de error indicando la duplicidad de postulación,
+1,El estudiante accede a la sección de <Ofertas>, selecciona una oferta válida y da 'clic' en el botón <Postularse> dos veces.,El sistema muestra un mensaje de error indicando que ya existe una postulación para esa oferta y no permite registrar la duplicidad,
 
 Comentario de evaluacion,El sistema valida correctamente la duplicidad de postulaciones.
 Aprobo,____

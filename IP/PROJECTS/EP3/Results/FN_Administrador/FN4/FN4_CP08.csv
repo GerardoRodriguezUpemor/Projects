@@ -1,0 +1,21 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Verificación de mensajes de error claros
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que los mensajes de error sean claros, específicos y útiles al visualizar postulaciones.
+Condiciones de ejecucion,El usuario administrador ha iniciado sesión correctamente y se produce un error al visualizar postulaciones.
+Entrada,
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,El usuario accede a la sección <Postulaciones> desde el panel de administración.,El sistema muestra la lista de postulaciones registradas,
+2,El usuario provoca un error al intentar visualizar postulaciones (conexión, datos incompletos, etc.).,El sistema muestra mensajes de error claros, específicos y útiles para el usuario,
+3,El usuario observa los mensajes de error en pantalla.,Los mensajes de error ayudan al usuario a identificar y corregir el problema,
+
+Comentario de evaluacion,El sistema muestra mensajes de error claros, específicos y útiles al visualizar postulaciones.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

@@ -1,17 +1,18 @@
+
 Nombre del sistema/proyecto,Upework
 Requisito a probar,Visualización de ofertas registradas
-Autor del caso de prueba,Gerardo Rodriguez
-Fecha de creacion,24-jul-25
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
 Ejecutor del caso de prueba,n/a
 Fecha de ejecucion,n/a
 
-Objetivo,Verificar que el sistema permite visualizar la lista de ofertas registradas.
+Objetivo,Verificar que el sistema permite visualizar correctamente la lista de ofertas registradas.
 Condiciones de ejecucion,El usuario administrador ha iniciado sesión y existen ofertas registradas.
-Entrada,
+Entrada,Acceder a la sección de ofertas con ofertas previamente registradas.
 
 No.,Accion,Resultado esperado,Resultado obtenido
-1,Ingresar a la sección de ofertas.,Se muestra la lista de ofertas registradas,
-2,Visualizar la lista de ofertas registradas.,Se muestran correctamente todas las ofertas registradas,
+1,El usuario accede a la sección <Ofertas> desde el panel de administración.,El sistema muestra la lista de ofertas registradas,
+2,El usuario visualiza la lista de ofertas registradas en pantalla.,El sistema muestra correctamente todas las ofertas registradas en la lista,
 
 Comentario de evaluacion,El sistema permite visualizar correctamente la lista de ofertas registradas.
 Aprobo,____

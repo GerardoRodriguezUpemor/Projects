@@ -1,0 +1,19 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Visualización sin postulaciones
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema muestra un mensaje adecuado cuando no existen postulaciones registradas.
+Condiciones de ejecucion,El usuario administrador ha iniciado sesión correctamente y no existen postulaciones registradas.
+Entrada,
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,El usuario accede a la sección <Postulaciones> desde el panel de administración.,El sistema muestra un mensaje indicando que no hay postulaciones registradas,
+
+Comentario de evaluacion,El sistema informa correctamente cuando no existen postulaciones registradas.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

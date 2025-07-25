@@ -1,19 +1,20 @@
+
 Nombre del sistema/proyecto,Upework
 Requisito a probar,Visualización de estudiantes con información incompleta
-Autor del caso de prueba,Gerardo Rodriguez
-Fecha de creacion,24-jul-25
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
 Ejecutor del caso de prueba,n/a
 Fecha de ejecucion,n/a
 
-Objetivo,Verificar que el sistema muestra correctamente los estudiantes con información incompleta.
-Condiciones de ejecucion,El usuario administrador ha iniciado sesión correctamente y existen estudiantes con información incompleta.
-Entrada,
+Objetivo,Verificar que el sistema muestra correctamente los estudiantes con información incompleta e indica claramente los campos faltantes.
+Condiciones de ejecucion,El usuario administrador ha iniciado sesión correctamente y existen estudiantes con información incompleta en el sistema.
+Entrada,Acceder a la lista de estudiantes donde algunos tienen información incompleta.
 
 No.,Accion,Resultado esperado,Resultado obtenido
-1,Ingresar a la sección de estudiantes.,Se muestra la lista de estudiantes registrados,
-2,Visualizar la lista de estudiantes.,El sistema muestra los estudiantes e indica claramente los campos incompletos,
+1,El usuario accede a la sección <Estudiantes> desde el panel de administración.,El sistema muestra la lista de estudiantes registrados,
+2,El usuario revisa la lista y observa los estudiantes con información incompleta.,El sistema indica claramente los campos incompletos en los estudiantes y permite identificarlos fácilmente,
 
-Comentario de evaluacion,El sistema indica correctamente los campos incompletos en los estudiantes.
+Comentario de evaluacion,El sistema indica correctamente los campos incompletos en los estudiantes y facilita su identificación.
 Aprobo,____
 Fallo,____
 Acciones correctivas,

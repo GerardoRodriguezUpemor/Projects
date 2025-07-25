@@ -1,0 +1,21 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Verificación de logs de intentos de acceso
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema registra correctamente los intentos de acceso (exitosos y fallidos) en los logs del sistema.
+Condiciones de ejecucion,El estudiante debe realizar intentos de inicio de sesión exitosos y fallidos.
+Entrada,Intentos de inicio de sesión con diferentes combinaciones de usuario y contraseña
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,El estudiante realiza un intento de inicio de sesión exitoso.,El sistema registra el intento exitoso en los logs,
+2,El estudiante realiza un intento de inicio de sesión fallido (usuario o contraseña incorrectos).,El sistema registra el intento fallido en los logs,
+3,El evaluador revisa los logs del sistema.,Se encuentran registrados los intentos de acceso con la información correspondiente,
+
+Comentario de evaluacion,El sistema registra correctamente los intentos de acceso en los logs.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

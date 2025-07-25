@@ -1,7 +1,7 @@
 Nombre del sistema/proyecto,Upework
 Requisito a probar,Postulación exitosa a oferta válida
-Autor del caso de prueba,Gerardo Rodriguez
-Fecha de creacion,24-jul-25
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
 Ejecutor del caso de prueba,n/a
 Fecha de ejecucion,n/a
 
@@ -10,7 +10,7 @@ Condiciones de ejecucion,El estudiante debe estar registrado, autenticado y la o
 Entrada,Selección de una oferta válida y envío de postulación.
 
 No.,Accion,Resultado esperado,Resultado obtenido
-1,El estudiante selecciona una oferta válida y pulsa postularse.,El sistema registra la postulación y la muestra en el perfil del estudiante,
+1,El estudiante accede a la sección de <Ofertas>, selecciona una oferta válida y da 'clic' en el botón <Postularse>.,El sistema registra la postulación y la muestra en la lista de postulaciones del perfil del estudiante,
 
 Comentario de evaluacion,El sistema permite postularse correctamente a ofertas válidas.
 Aprobo,____

@@ -1,20 +1,21 @@
+
 Nombre del sistema/proyecto,Upework
 Requisito a probar,Registro exitoso de empresa
-Autor del caso de prueba,Gerardo Rodriguez
-Fecha de creacion,24-jul-25
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
 Ejecutor del caso de prueba,n/a
 Fecha de ejecucion,n/a
 
-Objetivo,Verificar que el sistema permite registrar una empresa con todos los campos válidos.
+Objetivo,Verificar que el sistema permite registrar una empresa cuando se ingresan todos los campos obligatorios con datos válidos.
 Condiciones de ejecucion,El usuario administrador ha iniciado sesión correctamente.
-Entrada,Nombre de empresa: 'Tech Solutions', RFC: 'TSO123456789', Dirección: 'Calle 1', Teléfono: '5551234567', Email: 'info@techsolutions.com'
+Entrada,Ingresar en el formulario: Nombre de empresa: 'Tech Solutions', RFC: 'TSO123456789', Dirección: 'Calle 1', Teléfono: '5551234567', Email: 'info@techsolutions.com'.
 
 No.,Accion,Resultado esperado,Resultado obtenido
-1,Ingresar a la sección de registro de empresas.,Se muestra el formulario de registro de empresas,
-2,Llenar todos los campos obligatorios con datos válidos.,Los datos se ingresan correctamente,
-3,Hacer clic en 'Registrar'.,La empresa se registra exitosamente y aparece en la lista de empresas,
+1,El usuario accede a la sección <Registro de empresas> desde el panel de administración.,El sistema muestra el formulario de registro de empresas,
+2,El usuario llena todos los campos obligatorios con datos válidos en el formulario.,El sistema acepta los datos ingresados y habilita el botón <Registrar>,
+3,El usuario da 'clic' en el botón <Registrar>.,El sistema registra la empresa exitosamente y la muestra en la lista de empresas registradas,
 
-Comentario de evaluacion,El sistema permite registrar empresas con todos los campos válidos.
+Comentario de evaluacion,El sistema permite registrar empresas con todos los campos válidos y muestra la nueva empresa en la lista.
 Aprobo,____
 Fallo,____
 Acciones correctivas,

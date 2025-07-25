@@ -1,19 +1,20 @@
+
 Nombre del sistema/proyecto,Upework
 Requisito a probar,Exportación con campos personalizados
-Autor del caso de prueba,Gerardo Rodriguez
-Fecha de creacion,24-jul-25
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
 Ejecutor del caso de prueba,n/a
 Fecha de ejecucion,n/a
 
-Objetivo,Verificar que el sistema permite exportar postulaciones seleccionando campos personalizados.
+Objetivo,Verificar que el sistema permite exportar postulaciones seleccionando campos personalizados correctamente.
 Condiciones de ejecucion,El usuario administrador ha iniciado sesión correctamente y existen postulaciones registradas.
-Entrada,Seleccionar campos: 'Nombre', 'Estado', 'Fecha', formato: 'CSV'
+Entrada,Seleccionar campos: 'Nombre', 'Estado', 'Fecha' y formato: 'CSV'.
 
 No.,Accion,Resultado esperado,Resultado obtenido
-1,Ingresar a la sección de exportación de postulaciones.,Se muestra la opción de exportar postulaciones,
-2,Seleccionar los campos a exportar.,Se seleccionan los campos personalizados,
-3,Seleccionar el formato de exportación.,Se selecciona el formato 'CSV',
-4,Hacer clic en 'Exportar'.,El sistema genera y descarga el archivo solo con los campos seleccionados,
+1,El usuario accede a la sección <Exportación de postulaciones> desde el panel de administración.,El sistema muestra la opción de exportar postulaciones,
+2,El usuario selecciona los campos a exportar (por ejemplo, 'Nombre', 'Estado', 'Fecha').,El sistema habilita la opción para exportar solo los campos seleccionados,
+3,El usuario selecciona el formato de exportación 'CSV'.,El sistema habilita la opción para exportar en formato CSV,
+4,El usuario da 'clic' en el botón <Exportar>.,El sistema genera y descarga el archivo solo con los campos seleccionados,
 
 Comentario de evaluacion,El sistema permite exportar postulaciones con campos personalizados correctamente.
 Aprobo,____

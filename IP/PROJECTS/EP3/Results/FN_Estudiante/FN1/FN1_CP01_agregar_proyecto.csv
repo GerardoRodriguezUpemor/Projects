@@ -1,19 +1,19 @@
 Nombre del sistema/proyecto,Upework
-Requisito a probar,Agregar proyecto al perfil de estudiante
-Autor del caso de prueba,Gerardo Rodriguez
-Fecha de creacion,23-jul-25
+Requisito a probar,Inicio de sesión válido para usuario estudiante
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
 Ejecutor del caso de prueba,n/a
 Fecha de ejecucion,n/a
 
-Objetivo,Verificar que el sistema permite agregar un proyecto con todos los campos correctamente llenados.
-Condiciones de ejecucion,El estudiante debe estar registrado y autenticado en el sistema.
-Entrada,Datos completos de un proyecto (nombre, descripcion, fecha, tecnologias, etc.)
+Objetivo,Verificar que el sistema permite iniciar sesión correctamente con credenciales válidas de estudiante.
+Condiciones de ejecucion,El estudiante debe estar registrado en el sistema y tener credenciales válidas.
+Entrada,Usuario y contraseña válidos del estudiante
 
 No.,Accion,Resultado esperado,Resultado obtenido
-1,El estudiante accede a la seccion de proyectos en su perfil.,Se muestra el formulario para agregar proyecto,
-2,El estudiante llena todos los campos requeridos y pulsa el boton guardar.,El sistema registra el proyecto y lo muestra en la lista de proyectos del perfil,
+1,El estudiante accede a la página de "inicio de sesión" y da 'clic' en el botón <Iniciar sesión>.,Se #muestra# el formulario de inicio de sesión,
+2,El estudiante ingresa su (usuario) en el campo <Usuario> y su contraseña en el campo <Contraseña>, luego da 'clic' en el botón <Iniciar sesión>.,El sistema permite el acceso y muestra la página principal del estudiante,
 
-Comentario de evaluacion,El sistema permite agregar el proyecto correctamente cuando todos los campos estan llenados.
+Comentario de evaluacion,El sistema permite el acceso correctamente cuando las credenciales son válidas.
 Aprobo,____
 Fallo,____
 Acciones correctivas,

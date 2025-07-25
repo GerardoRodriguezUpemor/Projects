@@ -1,7 +1,7 @@
 Nombre del sistema/proyecto,Upework
 Requisito a probar,Agregar proyecto sin seleccionar categoría
-Autor del caso de prueba,Gerardo Rodriguez
-Fecha de creacion,23-jul-25
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
 Ejecutor del caso de prueba,n/a
 Fecha de ejecucion,n/a
 
@@ -10,8 +10,8 @@ Condiciones de ejecucion,El estudiante debe estar registrado y autenticado en el
 Entrada,Datos de proyecto sin categoría seleccionada.
 
 No.,Accion,Resultado esperado,Resultado obtenido
-1,El estudiante accede a la sección de proyectos en su perfil.,Se muestra el formulario para agregar proyecto,
-2,El estudiante deja la categoría sin seleccionar y pulsa guardar.,El sistema muestra un mensaje de error indicando que la categoría es obligatoria,
+1,El estudiante accede a la sección de <Proyectos> en su perfil y da 'clic' en el botón <Agregar proyecto>.,El sistema muestra el formulario para agregar un nuevo proyecto,
+2,El estudiante deja la categoría sin seleccionar en el campo <Categoría> y da 'clic' en el botón <Guardar>.,El sistema muestra un mensaje de error indicando que la categoría es obligatoria y no permite guardar el proyecto,
 
 Comentario de evaluacion,El sistema valida correctamente la selección de categoría.
 Aprobo,____

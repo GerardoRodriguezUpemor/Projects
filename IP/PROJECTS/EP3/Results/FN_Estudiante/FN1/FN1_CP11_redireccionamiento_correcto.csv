@@ -1,0 +1,20 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Redireccionamiento correcto tras inicio de sesión
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema redirige correctamente al usuario estudiante a la página principal tras un inicio de sesión exitoso.
+Condiciones de ejecucion,El estudiante debe estar registrado y autenticado en el sistema.
+Entrada,Usuario y contraseña válidos del estudiante
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,El estudiante ingresa sus credenciales válidas y da 'clic' en el botón <Iniciar sesión>.,El sistema redirige automáticamente a la página principal del estudiante,
+2,El estudiante verifica la URL y el contenido de la página.,La URL corresponde a la página principal y se muestran los datos del estudiante,
+
+Comentario de evaluacion,El sistema realiza el redireccionamiento correcto tras el inicio de sesión.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

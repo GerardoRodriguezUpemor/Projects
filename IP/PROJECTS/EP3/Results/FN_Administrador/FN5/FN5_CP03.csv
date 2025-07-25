@@ -1,21 +1,21 @@
+
 Nombre del sistema/proyecto,Upework
 Requisito a probar,Notificación al estudiante por cambio de estado
-Autor del caso de prueba,Gerardo Rodriguez
-Fecha de creacion,24-jul-25
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
 Ejecutor del caso de prueba,n/a
 Fecha de ejecucion,n/a
 
 Objetivo,Verificar que el sistema notifica correctamente al estudiante cuando cambia el estado de su postulación/estadía.
 Condiciones de ejecucion,El usuario administrador ha iniciado sesión correctamente y existe al menos una postulación/estadía registrada.
-Entrada,Seleccionar postulación/estadía existente, nuevo estado: 'Aprobado'
+Entrada,Seleccionar postulación/estadía existente, cambiar el estado y guardar los cambios.
 
 No.,Accion,Resultado esperado,Resultado obtenido
-1,Ingresar a la sección de postulaciones/estadías.,Se muestra la lista de postulaciones/estadías registradas,
-2,Seleccionar una postulación/estadía registrada.,Se muestran los datos de la postulación/estadía seleccionada,
-3,Cambiar el estado.,El nuevo estado se actualiza en el formulario,
-4,Guardar los cambios.,El estudiante recibe una notificación sobre el cambio de estado de su postulación/estadía,
+1,El usuario accede a la sección <Postulaciones/Estadías> desde el panel de administración.,El sistema muestra la lista de postulaciones/estadías registradas,
+2,El usuario selecciona una postulación/estadía registrada y da 'clic' en <Editar>.,El sistema muestra los datos de la postulación/estadía seleccionada en el formulario de edición,
+3,El usuario cambia el estado y da 'clic' en <Guardar>.,El sistema actualiza el estado y el estudiante recibe una notificación sobre el cambio de estado de su postulación/estadía,
 
-Comentario de evaluacion,El sistema notifica correctamente al estudiante sobre el cambio de estado.
+Comentario de evaluacion,El sistema notifica correctamente al estudiante sobre el cambio de estado de su postulación/estadía.
 Aprobo,____
 Fallo,____
 Acciones correctivas,

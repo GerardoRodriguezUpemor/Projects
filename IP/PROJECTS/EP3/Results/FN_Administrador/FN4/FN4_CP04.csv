@@ -1,0 +1,20 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Ordenamiento de postulaciones
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema permite ordenar la lista de postulaciones por diferentes criterios.
+Condiciones de ejecucion,El usuario administrador ha iniciado sesión correctamente y existen varias postulaciones.
+Entrada,
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,El usuario accede a la sección <Postulaciones> desde el panel de administración.,El sistema muestra la lista de postulaciones registradas,
+2,El usuario ordena la lista de postulaciones por fecha, estado u otro criterio.,La lista de postulaciones se ordena correctamente según el criterio seleccionado,
+
+Comentario de evaluacion,El sistema permite ordenar correctamente la lista de postulaciones.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

@@ -1,19 +1,20 @@
+
 Nombre del sistema/proyecto,Upework
 Requisito a probar,Fallo por conexión perdida al visualizar
-Autor del caso de prueba,Gerardo Rodriguez
-Fecha de creacion,24-jul-25
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
 Ejecutor del caso de prueba,n/a
 Fecha de ejecucion,n/a
 
-Objetivo,Verificar que el sistema muestra un error y no visualiza la información de los estudiantes si se pierde la conexión.
-Condiciones de ejecucion,El usuario administrador ha iniciado sesión correctamente y existen estudiantes registrados.
-Entrada,
+Objetivo,Verificar que el sistema muestra un error y no visualiza la información de los estudiantes si se pierde la conexión durante la consulta.
+Condiciones de ejecucion,El usuario administrador ha iniciado sesión correctamente y existen estudiantes registrados en el sistema.
+Entrada,Simular la pérdida de conexión al intentar visualizar la información de los estudiantes.
 
 No.,Accion,Resultado esperado,Resultado obtenido
-1,Ingresar a la sección de estudiantes.,Se muestra la lista de estudiantes registrados,
-2,Simular pérdida de conexión al intentar visualizar.,El sistema muestra un mensaje de error por pérdida de conexión y no muestra la información,
+1,El usuario accede a la sección <Estudiantes> desde el panel de administración.,El sistema muestra la lista de estudiantes registrados,
+2,El usuario simula la pérdida de conexión antes de intentar visualizar la información de un estudiante.,El sistema muestra un mensaje de error por pérdida de conexión y no muestra la información solicitada,
 
-Comentario de evaluacion,El sistema maneja correctamente la pérdida de conexión al visualizar estudiantes.
+Comentario de evaluacion,El sistema maneja correctamente la pérdida de conexión al visualizar estudiantes y no muestra información incorrecta.
 Aprobo,____
 Fallo,____
 Acciones correctivas,

@@ -1,17 +1,18 @@
+
 Nombre del sistema/proyecto,Upework
 Requisito a probar,Visualización de postulaciones/estadías sin seguimiento
-Autor del caso de prueba,Gerardo Rodriguez
-Fecha de creacion,24-jul-25
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
 Ejecutor del caso de prueba,n/a
 Fecha de ejecucion,n/a
 
 Objetivo,Verificar que el sistema permite visualizar correctamente las postulaciones/estadías que no tienen seguimiento.
 Condiciones de ejecucion,El usuario administrador ha iniciado sesión correctamente y existen postulaciones/estadías sin seguimiento.
-Entrada,
+Entrada,Acceder a la sección de postulaciones/estadías con registros sin seguimiento.
 
 No.,Accion,Resultado esperado,Resultado obtenido
-1,Ingresar a la sección de postulaciones/estadías.,Se muestra la lista de postulaciones/estadías registradas,
-2,Filtrar o visualizar las que no tienen seguimiento.,El sistema muestra correctamente las postulaciones/estadías que no tienen seguimiento,
+1,El usuario accede a la sección <Postulaciones/Estadías> desde el panel de administración.,El sistema muestra la lista de postulaciones/estadías registradas,
+2,El usuario filtra o visualiza las postulaciones/estadías que no tienen seguimiento.,El sistema muestra correctamente las postulaciones/estadías que no tienen seguimiento en la lista,
 
 Comentario de evaluacion,El sistema permite visualizar correctamente las postulaciones/estadías sin seguimiento.
 Aprobo,____

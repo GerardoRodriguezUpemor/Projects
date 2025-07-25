@@ -1,7 +1,7 @@
 Nombre del sistema/proyecto,Upework
 Requisito a probar,Agregar proyecto y verificar mensaje de éxito
-Autor del caso de prueba,Gerardo Rodriguez
-Fecha de creacion,23-jul-25
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
 Ejecutor del caso de prueba,n/a
 Fecha de ejecucion,n/a
 
@@ -10,8 +10,8 @@ Condiciones de ejecucion,El estudiante debe estar registrado y autenticado en el
 Entrada,Datos completos y válidos de un proyecto.
 
 No.,Accion,Resultado esperado,Resultado obtenido
-1,El estudiante accede a la sección de proyectos en su perfil.,Se muestra el formulario para agregar proyecto,
-2,El estudiante llena todos los campos y pulsa guardar.,El sistema muestra un mensaje de éxito y el proyecto aparece en la lista,
+1,El estudiante accede a la sección de <Proyectos> en su perfil y da 'clic' en el botón <Agregar proyecto>.,El sistema muestra el formulario para agregar un nuevo proyecto,
+2,El estudiante llena todos los campos requeridos y da 'clic' en el botón <Guardar>.,El sistema muestra un mensaje de éxito y el proyecto aparece en la lista de proyectos del perfil con los datos ingresados,
 
 Comentario de evaluacion,El sistema confirma correctamente la operación exitosa.
 Aprobo,____

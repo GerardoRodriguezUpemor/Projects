@@ -1,7 +1,7 @@
 Nombre del sistema/proyecto,Upework
 Requisito a probar,Registro de postulaciones en el sistema
-Autor del caso de prueba,Gerardo Rodriguez
-Fecha de creacion,24-jul-25
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
 Ejecutor del caso de prueba,n/a
 Fecha de ejecucion,n/a
 
@@ -10,7 +10,7 @@ Condiciones de ejecucion,El estudiante debe estar registrado y autenticado en el
 Entrada,Realizar varias postulaciones a diferentes ofertas.
 
 No.,Accion,Resultado esperado,Resultado obtenido
-1,El estudiante realiza varias postulaciones a diferentes ofertas.,El sistema registra todas las postulaciones y las muestra en el perfil del estudiante,
+1,El estudiante accede a la sección de <Ofertas>, selecciona diferentes ofertas válidas y da 'clic' en el botón <Postularse> para cada una.,El sistema registra todas las postulaciones y las muestra en la lista de postulaciones del perfil del estudiante,
 
 Comentario de evaluacion,El sistema registra correctamente todas las postulaciones realizadas.
 Aprobo,____

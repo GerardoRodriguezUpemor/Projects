@@ -1,19 +1,20 @@
+
 Nombre del sistema/proyecto,Upework
 Requisito a probar,Fallo por formato incorrecto de contraseña
-Autor del caso de prueba,Gerardo Rodriguez
-Fecha de creacion,24-jul-25
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
 Ejecutor del caso de prueba,n/a
 Fecha de ejecucion,n/a
 
-Objetivo,Verificar que el sistema no permite el acceso si la contraseña tiene un formato incorrecto.
+Objetivo,Verificar que el sistema no permite el acceso si el campo <Contraseña> no cumple con el formato requerido en el formulario de inicio de sesión de administrador.
 Condiciones de ejecucion,El usuario debe estar registrado como administrador en el sistema.
-Entrada,Usuario válido y contraseña con formato incorrecto.
+Entrada,Ingresar un usuario válido y una contraseña con formato incorrecto.
 
 No.,Accion,Resultado esperado,Resultado obtenido
-1,El usuario accede a la página de inicio de sesión.,Se muestra el formulario de inicio de sesión,
-2,El usuario ingresa una contraseña con formato incorrecto y pulsa iniciar sesión.,El sistema muestra un mensaje de error sobre el formato de la contraseña,
+1,El usuario accede a la página de <Inicio de sesión> y da 'clic' en el botón <Iniciar sesión>.,El sistema muestra el formulario de inicio de sesión para administrador,
+2,El usuario ingresa un usuario válido en el campo <Usuario> y una contraseña con formato incorrecto en el campo <Contraseña>, luego da 'clic' en el botón <Iniciar sesión>.,El sistema muestra un mensaje de error indicando que el formato de la contraseña es incorrecto y no permite el acceso,
 
-Comentario de evaluacion,El sistema valida correctamente el formato de la contraseña.
+Comentario de evaluacion,El sistema valida correctamente el formato del campo contraseña.
 Aprobo,____
 Fallo,____
 Acciones correctivas,

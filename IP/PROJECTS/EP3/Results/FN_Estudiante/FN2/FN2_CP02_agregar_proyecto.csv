@@ -1,7 +1,7 @@
 Nombre del sistema/proyecto,Upework
 Requisito a probar,Agregar proyecto con campos opcionales vacíos
-Autor del caso de prueba,Gerardo Rodriguez
-Fecha de creacion,23-jul-25
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
 Ejecutor del caso de prueba,n/a
 Fecha de ejecucion,n/a
 
@@ -10,8 +10,8 @@ Condiciones de ejecucion,El estudiante debe estar registrado y autenticado en el
 Entrada,Datos de proyecto con solo los campos obligatorios llenados.
 
 No.,Accion,Resultado esperado,Resultado obtenido
-1,El estudiante accede a la sección de proyectos en su perfil.,Se muestra el formulario para agregar proyecto,
-2,El estudiante llena solo los campos obligatorios y pulsa guardar.,El sistema registra el proyecto y lo muestra en la lista de proyectos del perfil,
+1,El estudiante accede a la sección de <Proyectos> en su perfil y da 'clic' en el botón <Agregar proyecto>.,El sistema muestra el formulario para agregar un nuevo proyecto,
+2,El estudiante llena solo los campos obligatorios y da 'clic' en el botón <Guardar>.,El sistema registra el proyecto y lo muestra en la lista de proyectos del perfil con los datos ingresados,
 
 Comentario de evaluacion,El sistema permite agregar el proyecto correctamente sin los campos opcionales.
 Aprobo,____

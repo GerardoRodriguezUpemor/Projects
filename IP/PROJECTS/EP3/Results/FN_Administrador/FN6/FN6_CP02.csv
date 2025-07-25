@@ -1,19 +1,20 @@
+
 Nombre del sistema/proyecto,Upework
 Requisito a probar,Exportación con filtrado de postulaciones
-Autor del caso de prueba,Gerardo Rodriguez
-Fecha de creacion,24-jul-25
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
 Ejecutor del caso de prueba,n/a
 Fecha de ejecucion,n/a
 
-Objetivo,Verificar que el sistema permite exportar postulaciones aplicando filtros.
+Objetivo,Verificar que el sistema permite exportar postulaciones aplicando filtros correctamente.
 Condiciones de ejecucion,El usuario administrador ha iniciado sesión correctamente y existen postulaciones registradas.
-Entrada,Seleccionar filtro: 'Aprobadas', formato: 'CSV'
+Entrada,Seleccionar filtro: 'Aprobadas' y formato: 'CSV'.
 
 No.,Accion,Resultado esperado,Resultado obtenido
-1,Ingresar a la sección de exportación de postulaciones.,Se muestra la opción de exportar postulaciones,
-2,Aplicar un filtro a las postulaciones.,Se filtran las postulaciones según el filtro seleccionado,
-3,Seleccionar el formato de exportación.,Se selecciona el formato 'CSV',
-4,Hacer clic en 'Exportar'.,El sistema genera y descarga el archivo solo con las postulaciones que cumplen el filtro,
+1,El usuario accede a la sección <Exportación de postulaciones> desde el panel de administración.,El sistema muestra la opción de exportar postulaciones,
+2,El usuario aplica un filtro a las postulaciones (por ejemplo, 'Aprobadas').,El sistema filtra las postulaciones según el filtro seleccionado,
+3,El usuario selecciona el formato de exportación 'CSV'.,El sistema habilita la opción para exportar en formato CSV,
+4,El usuario da 'clic' en el botón <Exportar>.,El sistema genera y descarga el archivo solo con las postulaciones que cumplen el filtro,
 
 Comentario de evaluacion,El sistema permite exportar postulaciones aplicando filtros correctamente.
 Aprobo,____

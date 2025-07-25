@@ -1,0 +1,20 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Registro de acciones en el sistema
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que todas las acciones realizadas sobre postulaciones quedan registradas correctamente en el sistema (logs/auditoría).
+Condiciones de ejecucion,El usuario administrador ha iniciado sesión correctamente y realiza acciones sobre postulaciones.
+Entrada,
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,El usuario realiza acciones de visualización, filtrado u ordenamiento de postulaciones desde el panel de administración.,El sistema registra correctamente cada acción realizada sobre las postulaciones,
+2,El usuario consulta el registro de acciones del sistema (logs/auditoría).,Las acciones quedan registradas en los logs/auditoría con fecha, hora, usuario y tipo de acción,
+
+Comentario de evaluacion,El sistema registra correctamente todas las acciones realizadas sobre postulaciones y las almacena en los logs/auditoría.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

@@ -1,7 +1,7 @@
 Nombre del sistema/proyecto,Upework
 Requisito a probar,Agregar proyecto con formato de fecha incorrecto
-Autor del caso de prueba,Gerardo Rodriguez
-Fecha de creacion,23-jul-25
+Autor del caso de prueba,Gerardos's Team
+Fecha de creacion,25-jul-25
 Ejecutor del caso de prueba,n/a
 Fecha de ejecucion,n/a
 
@@ -10,8 +10,8 @@ Condiciones de ejecucion,El estudiante debe estar registrado y autenticado en el
 Entrada,Datos de proyecto con formato de fecha inválido.
 
 No.,Accion,Resultado esperado,Resultado obtenido
-1,El estudiante accede a la sección de proyectos en su perfil.,Se muestra el formulario para agregar proyecto,
-2,El estudiante ingresa una fecha con formato incorrecto y pulsa guardar.,El sistema muestra un mensaje de error sobre el formato de fecha,
+1,El estudiante accede a la sección de <Proyectos> en su perfil y da 'clic' en el botón <Agregar proyecto>.,El sistema muestra el formulario para agregar un nuevo proyecto,
+2,El estudiante ingresa una fecha con formato incorrecto en el campo <Fecha> y da 'clic' en el botón <Guardar>.,El sistema muestra un mensaje de error indicando el formato incorrecto de la fecha y no permite guardar el proyecto,
 
 Comentario de evaluacion,El sistema valida correctamente el formato de fecha.
 Aprobo,____
