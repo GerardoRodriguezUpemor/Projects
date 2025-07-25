@@ -1,0 +1,32 @@
+Caso de prueba,Descripción,Precondiciones,Entradas,Pasos,Resultado Esperado,Notas
+FN2.CP01,Registro exitoso de empresa,El usuario administrador ha iniciado sesión correctamente,"Nombre de empresa: 'Tech Solutions', RFC: 'TSO123456789', Dirección: 'Calle 1', Teléfono: '5551234567', Email: 'info@techsolutions.com'",1. Ingresar a la sección de registro de empresas.
+2. Llenar todos los campos obligatorios con datos válidos.
+3. Hacer clic en 'Registrar'.,"La empresa se registra exitosamente y aparece en la lista de empresas.",
+FN2.CP02,Fallo por campos obligatorios vacíos,El usuario administrador ha iniciado sesión correctamente,"Nombre de empresa: '', RFC: '', Dirección: '', Teléfono: '', Email: ''",1. Ingresar a la sección de registro de empresas.
+2. Dejar uno o más campos obligatorios vacíos.
+3. Hacer clic en 'Registrar'.,"El sistema muestra mensajes de error indicando los campos obligatorios faltantes y no permite el registro.",
+FN2.CP03,Fallo por formato incorrecto de datos,El usuario administrador ha iniciado sesión correctamente,"Nombre de empresa: 'Tech Solutions', RFC: '123', Dirección: 'Calle 1', Teléfono: 'abc', Email: 'correo'",1. Ingresar a la sección de registro de empresas.
+2. Llenar los campos con datos en formato incorrecto.
+3. Hacer clic en 'Registrar'.,"El sistema muestra mensajes de error por formato incorrecto y no permite el registro.",
+FN2.CP04,Fallo por empresa duplicada,El usuario administrador ha iniciado sesión correctamente y existe una empresa registrada con el mismo RFC,"Nombre de empresa: 'Tech Solutions', RFC: 'TSO123456789', Dirección: 'Calle 1', Teléfono: '5551234567', Email: 'info@techsolutions.com'",1. Ingresar a la sección de registro de empresas.
+2. Llenar los campos con datos de una empresa ya registrada.
+3. Hacer clic en 'Registrar'.,"El sistema muestra un mensaje de error indicando que la empresa ya existe y no permite el registro duplicado.",
+FN2.CP05,Edición de empresa registrada,El usuario administrador ha iniciado sesión y existe al menos una empresa registrada,"Seleccionar empresa existente, modificar dirección a 'Calle 2'",1. Ingresar a la sección de empresas.
+2. Seleccionar una empresa registrada.
+3. Modificar los datos requeridos.
+4. Guardar los cambios.,"La empresa se actualiza correctamente y los cambios se reflejan en la lista.",
+FN2.CP06,Eliminación de empresa registrada,El usuario administrador ha iniciado sesión y existe al menos una empresa registrada,"Seleccionar empresa existente",1. Ingresar a la sección de empresas.
+2. Seleccionar una empresa registrada.
+3. Hacer clic en 'Eliminar'.
+4. Confirmar la eliminación.,"La empresa se elimina correctamente y desaparece de la lista.",
+FN2.CP07,Visualización de empresas registradas,El usuario administrador ha iniciado sesión y existen empresas registradas,,1. Ingresar a la sección de empresas.
+2. Visualizar la lista de empresas registradas.,"Se muestra la lista completa de empresas registradas.",
+FN2.CP08,Fallo por conexión perdida al registrar,El usuario administrador ha iniciado sesión correctamente,"Nombre de empresa: 'Tech Solutions', RFC: 'TSO123456789', Dirección: 'Calle 1', Teléfono: '5551234567', Email: 'info@techsolutions.com'",1. Ingresar a la sección de registro de empresas.
+2. Llenar todos los campos obligatorios con datos válidos.
+3. Simular pérdida de conexión antes de registrar.
+4. Hacer clic en 'Registrar'.,"El sistema muestra un mensaje de error por pérdida de conexión y no realiza el registro.",
+FN2.CP09,Verificación de mensajes de error claros,El usuario administrador ha iniciado sesión correctamente y se produce un error en el registro,,1. Ingresar a la sección de registro de empresas.
+2. Provocar un error (campos vacíos, formato incorrecto, duplicado, etc.).
+3. Observar los mensajes de error.,"Los mensajes de error son claros, específicos y ayudan al usuario a corregir el problema.",
+FN2.CP10,Registro de acciones en el sistema,El usuario administrador ha iniciado sesión correctamente y realiza acciones sobre empresas,,1. Realizar acciones de registro, edición o eliminación de empresas.
+2. Consultar el registro de acciones del sistema.,"Las acciones realizadas quedan registradas correctamente en el sistema (logs/auditoría).",

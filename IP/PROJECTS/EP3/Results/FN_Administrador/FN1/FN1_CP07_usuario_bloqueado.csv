@@ -1,0 +1,20 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Fallo por usuario bloqueado
+Autor del caso de prueba,Gerardo Rodriguez
+Fecha de creacion,24-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema no permite el acceso a un usuario administrador bloqueado.
+Condiciones de ejecucion,El usuario debe estar registrado como administrador y estar bloqueado en el sistema.
+Entrada,Usuario bloqueado y contraseña válida.
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,El usuario accede a la página de inicio de sesión.,Se muestra el formulario de inicio de sesión,
+2,El usuario ingresa usuario bloqueado y contraseña válida y pulsa iniciar sesión.,El sistema muestra un mensaje de error indicando que el usuario está bloqueado,
+
+Comentario de evaluacion,El sistema valida correctamente el estado de usuario bloqueado.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

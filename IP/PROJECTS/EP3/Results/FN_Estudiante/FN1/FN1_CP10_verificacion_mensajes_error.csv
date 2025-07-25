@@ -1,0 +1,20 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Agregar proyecto al perfil de estudiante
+Autor del caso de prueba,Gerardo Rodriguez
+Fecha de creacion,23-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que los mensajes de error sean comprensibles y utiles para el usuario al agregar proyectos y CV.
+Condiciones de ejecucion,El estudiante debe estar registrado y autenticado en el sistema. Se provocan errores intencionalmente (campos vacios, formato no permitido, conexion perdida, etc.)
+Entrada,Datos erroneos o condiciones de error al agregar proyecto o CV
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,El estudiante realiza una accion que provoca un error (por ejemplo, deja campos vacios o sube archivo no permitido).,El sistema muestra un mensaje de error claro y comprensible que indica la causa del problema,
+2,El estudiante revisa el mensaje de error.,El mensaje es util y permite al usuario corregir el error,
+
+Comentario de evaluacion,El sistema muestra mensajes de error claros y utiles para el usuario.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

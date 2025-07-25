@@ -1,0 +1,32 @@
+Caso de prueba,Descripción,Precondiciones,Entradas,Pasos,Resultado Esperado,Notas
+FN3.CP01,Registro exitoso de oferta,El usuario administrador ha iniciado sesión correctamente,"Título: 'Desarrollador Jr.', Empresa: 'Tech Solutions', Descripción: 'Desarrollo de software', Requisitos: 'Conocimientos en Java', Fecha de inicio: '2025-08-01', Fecha de fin: '2025-12-31'",1. Ingresar a la sección de registro de ofertas.
+2. Llenar todos los campos obligatorios con datos válidos.
+3. Hacer clic en 'Registrar'.,"La oferta se registra exitosamente y aparece en la lista de ofertas.",
+FN3.CP02,Fallo por campos obligatorios vacíos,El usuario administrador ha iniciado sesión correctamente,"Título: '', Empresa: '', Descripción: '', Requisitos: '', Fecha de inicio: '', Fecha de fin: ''",1. Ingresar a la sección de registro de ofertas.
+2. Dejar uno o más campos obligatorios vacíos.
+3. Hacer clic en 'Registrar'.,"El sistema muestra mensajes de error indicando los campos obligatorios faltantes y no permite el registro.",
+FN3.CP03,Fallo por formato incorrecto de datos,El usuario administrador ha iniciado sesión correctamente,"Título: 'Desarrollador Jr.', Empresa: 'Tech Solutions', Descripción: 'Desarrollo de software', Requisitos: 'Conocimientos en Java', Fecha de inicio: '2025-13-01', Fecha de fin: '2025-31-12'",1. Ingresar a la sección de registro de ofertas.
+2. Llenar los campos con datos en formato incorrecto.
+3. Hacer clic en 'Registrar'.,"El sistema muestra mensajes de error por formato incorrecto y no permite el registro.",
+FN3.CP04,Fallo por oferta duplicada,El usuario administrador ha iniciado sesión correctamente y existe una oferta registrada con el mismo título y empresa,"Título: 'Desarrollador Jr.', Empresa: 'Tech Solutions', Descripción: 'Desarrollo de software', Requisitos: 'Conocimientos en Java', Fecha de inicio: '2025-08-01', Fecha de fin: '2025-12-31'",1. Ingresar a la sección de registro de ofertas.
+2. Llenar los campos con datos de una oferta ya registrada.
+3. Hacer clic en 'Registrar'.,"El sistema muestra un mensaje de error indicando que la oferta ya existe y no permite el registro duplicado.",
+FN3.CP05,Edición de oferta registrada,El usuario administrador ha iniciado sesión y existe al menos una oferta registrada,"Seleccionar oferta existente, modificar descripción a 'Desarrollo web'",1. Ingresar a la sección de ofertas.
+2. Seleccionar una oferta registrada.
+3. Modificar los datos requeridos.
+4. Guardar los cambios.,"La oferta se actualiza correctamente y los cambios se reflejan en la lista.",
+FN3.CP06,Eliminación de oferta registrada,El usuario administrador ha iniciado sesión y existe al menos una oferta registrada,"Seleccionar oferta existente",1. Ingresar a la sección de ofertas.
+2. Seleccionar una oferta registrada.
+3. Hacer clic en 'Eliminar'.
+4. Confirmar la eliminación.,"La oferta se elimina correctamente y desaparece de la lista.",
+FN3.CP07,Visualización de ofertas registradas,El usuario administrador ha iniciado sesión y existen ofertas registradas,,1. Ingresar a la sección de ofertas.
+2. Visualizar la lista de ofertas registradas.,"Se muestra la lista completa de ofertas registradas.",
+FN3.CP08,Fallo por conexión perdida al registrar,El usuario administrador ha iniciado sesión correctamente,"Título: 'Desarrollador Jr.', Empresa: 'Tech Solutions', Descripción: 'Desarrollo de software', Requisitos: 'Conocimientos en Java', Fecha de inicio: '2025-08-01', Fecha de fin: '2025-12-31'",1. Ingresar a la sección de registro de ofertas.
+2. Llenar todos los campos obligatorios con datos válidos.
+3. Simular pérdida de conexión antes de registrar.
+4. Hacer clic en 'Registrar'.,"El sistema muestra un mensaje de error por pérdida de conexión y no realiza el registro.",
+FN3.CP09,Verificación de mensajes de error claros,El usuario administrador ha iniciado sesión correctamente y se produce un error en el registro,,1. Ingresar a la sección de registro de ofertas.
+2. Provocar un error (campos vacíos, formato incorrecto, duplicado, etc.).
+3. Observar los mensajes de error.,"Los mensajes de error son claros, específicos y ayudan al usuario a corregir el problema.",
+FN3.CP10,Registro de acciones en el sistema,El usuario administrador ha iniciado sesión correctamente y realiza acciones sobre ofertas,,1. Realizar acciones de registro, edición o eliminación de ofertas.
+2. Consultar el registro de acciones del sistema.,"Las acciones realizadas quedan registradas correctamente en el sistema (logs/auditoría).",

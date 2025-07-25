@@ -1,0 +1,20 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Agregar proyecto al perfil de estudiante
+Autor del caso de prueba,Gerardo Rodriguez
+Fecha de creacion,23-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema muestra un mensaje de error si se pierde la conexion al intentar guardar un proyecto o CV.
+Condiciones de ejecucion,El estudiante debe estar registrado y autenticado en el sistema. Se simula la perdida de conexion al guardar.
+Entrada,Datos de proyecto o CV a guardar
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,El estudiante accede a la seccion de proyectos o CV en su perfil.,Se muestra el formulario para agregar proyecto o subir CV,
+2,El estudiante llena los campos requeridos y pulsa el boton guardar o subir, pero se pierde la conexion.,El sistema muestra un mensaje de error indicando la perdida de conexion y no guarda los datos,
+
+Comentario de evaluacion,El sistema muestra un mensaje de error si se pierde la conexion al intentar guardar un proyecto o CV.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

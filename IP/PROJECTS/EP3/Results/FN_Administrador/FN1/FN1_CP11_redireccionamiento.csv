@@ -1,0 +1,19 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Redireccionamiento correcto tras inicio de sesión
+Autor del caso de prueba,Gerardo Rodriguez
+Fecha de creacion,24-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema redirige correctamente al panel de administración tras un inicio de sesión exitoso.
+Condiciones de ejecucion,El usuario debe estar registrado como administrador y haber iniciado sesión correctamente.
+Entrada,Usuario y contraseña válidos.
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,El usuario inicia sesión correctamente.,El sistema redirige automáticamente al panel de administración,
+
+Comentario de evaluacion,El sistema realiza el redireccionamiento correcto tras el inicio de sesión.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

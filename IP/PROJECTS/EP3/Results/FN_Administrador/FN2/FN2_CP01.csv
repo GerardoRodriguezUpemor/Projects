@@ -1,0 +1,21 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Registro exitoso de empresa
+Autor del caso de prueba,Gerardo Rodriguez
+Fecha de creacion,24-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema permite registrar una empresa con todos los campos válidos.
+Condiciones de ejecucion,El usuario administrador ha iniciado sesión correctamente.
+Entrada,Nombre de empresa: 'Tech Solutions', RFC: 'TSO123456789', Dirección: 'Calle 1', Teléfono: '5551234567', Email: 'info@techsolutions.com'
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,Ingresar a la sección de registro de empresas.,Se muestra el formulario de registro de empresas,
+2,Llenar todos los campos obligatorios con datos válidos.,Los datos se ingresan correctamente,
+3,Hacer clic en 'Registrar'.,La empresa se registra exitosamente y aparece en la lista de empresas,
+
+Comentario de evaluacion,El sistema permite registrar empresas con todos los campos válidos.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

@@ -1,0 +1,19 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Eliminación de postulación
+Autor del caso de prueba,Gerardo Rodriguez
+Fecha de creacion,24-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema permite eliminar una postulación realizada.
+Condiciones de ejecucion,El estudiante debe estar registrado y autenticado en el sistema y haber realizado una postulación.
+Entrada,Acceso a la sección de postulaciones y selección de una postulación para eliminar.
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,El estudiante selecciona una postulación y pulsa eliminar.,El sistema elimina la postulación y la retira de la lista,
+
+Comentario de evaluacion,El sistema permite eliminar correctamente las postulaciones.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

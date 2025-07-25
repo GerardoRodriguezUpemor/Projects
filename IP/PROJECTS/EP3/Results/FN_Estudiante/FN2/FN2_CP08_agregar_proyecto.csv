@@ -1,0 +1,20 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Agregar proyecto con usuario no autenticado
+Autor del caso de prueba,Gerardo Rodriguez
+Fecha de creacion,23-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema no permite agregar un proyecto si el usuario no está autenticado.
+Condiciones de ejecucion,El estudiante no debe haber iniciado sesión en el sistema.
+Entrada,Datos de proyecto válidos pero sin sesión activa.
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,El usuario accede a la sección de proyectos sin estar autenticado.,El sistema redirige a la página de inicio de sesión o muestra un mensaje de error,
+2,El usuario intenta agregar un proyecto.,El sistema no permite la acción y solicita autenticación,
+
+Comentario de evaluacion,El sistema protege correctamente la funcionalidad para usuarios autenticados.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

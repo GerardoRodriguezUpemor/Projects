@@ -1,0 +1,20 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Agregar proyecto al perfil de estudiante
+Autor del caso de prueba,Gerardo Rodriguez
+Fecha de creacion,23-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema permite subir un archivo CV en formato permitido (PDF, DOCX, etc.).
+Condiciones de ejecucion,El estudiante debe estar registrado y autenticado en el sistema.
+Entrada,Archivo CV en formato permitido (PDF, DOCX, etc.)
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,El estudiante accede a la seccion de CV en su perfil.,Se muestra la opcion para subir archivo CV,
+2,El estudiante selecciona un archivo CV en formato permitido y pulsa el boton subir.,El sistema guarda el archivo CV y lo muestra en el perfil del estudiante,
+
+Comentario de evaluacion,El sistema permite subir el archivo CV correctamente si el formato es permitido.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

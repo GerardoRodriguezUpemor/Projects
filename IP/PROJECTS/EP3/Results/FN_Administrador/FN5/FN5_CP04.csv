@@ -1,0 +1,22 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Fallo por campos obligatorios vacíos en actualización
+Autor del caso de prueba,Gerardo Rodriguez
+Fecha de creacion,24-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema no permite actualizar una postulación/estadía si hay campos obligatorios vacíos.
+Condiciones de ejecucion,El usuario administrador ha iniciado sesión correctamente y existe al menos una postulación/estadía registrada.
+Entrada,Seleccionar postulación/estadía existente, dejar campos obligatorios vacíos
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,Ingresar a la sección de postulaciones/estadías.,Se muestra la lista de postulaciones/estadías registradas,
+2,Seleccionar una postulación/estadía registrada.,Se muestran los datos de la postulación/estadía seleccionada,
+3,Dejar campos obligatorios vacíos al actualizar.,El sistema detecta los campos vacíos,
+4,Guardar los cambios.,El sistema muestra mensajes de error indicando los campos obligatorios faltantes y no permite la actualización,
+
+Comentario de evaluacion,El sistema valida que no se puedan actualizar postulaciones/estadías con campos obligatorios vacíos.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

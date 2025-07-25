@@ -1,0 +1,21 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Verificación de mensajes de error claros
+Autor del caso de prueba,Gerardo Rodriguez
+Fecha de creacion,24-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que los mensajes de error sean claros y específicos al exportar postulaciones.
+Condiciones de ejecucion,El usuario administrador ha iniciado sesión correctamente y se produce un error al exportar postulaciones.
+Entrada,
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,Ingresar a la sección de exportación de postulaciones.,Se muestra la opción de exportar postulaciones,
+2,Provocar un error (formato, conexión, etc.).,El sistema detecta el error,
+3,Observar los mensajes de error.,Los mensajes de error son claros, específicos y ayudan al usuario a corregir el problema,
+
+Comentario de evaluacion,El sistema muestra mensajes de error claros y útiles para el usuario.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

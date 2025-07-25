@@ -1,0 +1,20 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Agregar proyecto con descripción muy larga
+Autor del caso de prueba,Gerardo Rodriguez
+Fecha de creacion,23-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema maneja correctamente una descripción de proyecto muy larga.
+Condiciones de ejecucion,El estudiante debe estar registrado y autenticado en el sistema.
+Entrada,Datos de proyecto con una descripción que excede el límite permitido.
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,El estudiante accede a la sección de proyectos en su perfil.,Se muestra el formulario para agregar proyecto,
+2,El estudiante ingresa una descripción muy larga y pulsa guardar.,El sistema muestra un mensaje de error o recorta la descripción según la validación,
+
+Comentario de evaluacion,El sistema valida correctamente la longitud de la descripción.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

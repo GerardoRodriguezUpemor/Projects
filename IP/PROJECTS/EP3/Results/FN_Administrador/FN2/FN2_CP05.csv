@@ -1,0 +1,22 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Edición de empresa registrada
+Autor del caso de prueba,Gerardo Rodriguez
+Fecha de creacion,24-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema permite editar los datos de una empresa registrada.
+Condiciones de ejecucion,El usuario administrador ha iniciado sesión y existe al menos una empresa registrada.
+Entrada,Seleccionar empresa existente, modificar dirección a 'Calle 2'
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,Ingresar a la sección de empresas.,Se muestra la lista de empresas registradas,
+2,Seleccionar una empresa registrada.,Se muestran los datos de la empresa seleccionada,
+3,Modificar los datos requeridos.,Los datos se actualizan en el formulario,
+4,Guardar los cambios.,La empresa se actualiza correctamente y los cambios se reflejan en la lista,
+
+Comentario de evaluacion,El sistema permite editar correctamente los datos de una empresa registrada.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

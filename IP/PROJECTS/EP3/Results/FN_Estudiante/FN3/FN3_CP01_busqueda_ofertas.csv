@@ -1,0 +1,20 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Busqueda de ofertas con criterios válidos
+Autor del caso de prueba,Gerardo Rodriguez
+Fecha de creacion,24-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema permite buscar ofertas usando criterios válidos.
+Condiciones de ejecucion,El estudiante debe estar registrado y autenticado en el sistema.
+Entrada,Criterios de búsqueda válidos (palabra clave, categoría, etc.)
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,El estudiante accede a la sección de ofertas.,Se muestra el formulario de búsqueda,
+2,El estudiante ingresa criterios válidos y pulsa buscar.,El sistema muestra las ofertas que cumplen los criterios,
+
+Comentario de evaluacion,El sistema filtra correctamente las ofertas según los criterios ingresados.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

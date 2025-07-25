@@ -1,0 +1,20 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Inicio de sesión válido para usuario administrador
+Autor del caso de prueba,Gerardo Rodriguez
+Fecha de creacion,24-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema permite el inicio de sesión correcto para un usuario administrador registrado.
+Condiciones de ejecucion,El administrador debe estar registrado en el sistema.
+Entrada,Usuario y contraseña válidos de administrador.
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,El administrador accede a la página de inicio de sesión.,Se muestra el formulario de inicio de sesión,
+2,El administrador ingresa usuario y contraseña válidos y pulsa iniciar sesión.,El sistema permite el acceso y redirige al panel de administración,
+
+Comentario de evaluacion,El sistema permite el acceso solo a administradores registrados con credenciales correctas.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

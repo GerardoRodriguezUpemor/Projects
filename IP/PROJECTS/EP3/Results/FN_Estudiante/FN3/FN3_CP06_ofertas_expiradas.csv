@@ -1,0 +1,19 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Visualización de ofertas expiradas o no disponibles
+Autor del caso de prueba,Gerardo Rodriguez
+Fecha de creacion,24-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema muestra correctamente las ofertas expiradas o no disponibles.
+Condiciones de ejecucion,El estudiante debe estar registrado y autenticado en el sistema.
+Entrada,Intentar visualizar ofertas que ya expiraron o no están disponibles.
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,El estudiante accede a la sección de ofertas y selecciona una oferta expirada o no disponible.,El sistema muestra un mensaje indicando que la oferta no está disponible,
+
+Comentario de evaluacion,El sistema informa correctamente sobre la disponibilidad de las ofertas.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

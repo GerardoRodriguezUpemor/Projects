@@ -1,0 +1,20 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Agregar proyecto al perfil de estudiante
+Autor del caso de prueba,Gerardo Rodriguez
+Fecha de creacion,23-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema rechaza la carga de CV si el archivo no es de un formato permitido.
+Condiciones de ejecucion,El estudiante debe estar registrado y autenticado en el sistema.
+Entrada,Archivo CV en formato no permitido (por ejemplo: JPG, TXT, EXE)
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,El estudiante accede a la seccion de CV en su perfil.,Se muestra la opcion para subir archivo CV,
+2,El estudiante selecciona un archivo CV en formato no permitido y pulsa el boton subir.,El sistema muestra un mensaje de error indicando que el formato no es permitido y no guarda el archivo,
+
+Comentario de evaluacion,El sistema rechaza la carga de CV si el archivo no es de un formato permitido.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

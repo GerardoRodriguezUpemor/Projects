@@ -1,0 +1,22 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Edición de oferta registrada
+Autor del caso de prueba,Gerardo Rodriguez
+Fecha de creacion,24-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema permite editar los datos de una oferta registrada.
+Condiciones de ejecucion,El usuario administrador ha iniciado sesión y existe al menos una oferta registrada.
+Entrada,Seleccionar oferta existente, modificar descripción a 'Desarrollo web'
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,Ingresar a la sección de ofertas.,Se muestra la lista de ofertas registradas,
+2,Seleccionar una oferta registrada.,Se muestran los datos de la oferta seleccionada,
+3,Modificar los datos requeridos.,Los datos se actualizan en el formulario,
+4,Guardar los cambios.,La oferta se actualiza correctamente y los cambios se reflejan en la lista,
+
+Comentario de evaluacion,El sistema permite editar correctamente los datos de una oferta registrada.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

@@ -1,0 +1,20 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Visualización de estudiantes con información incompleta
+Autor del caso de prueba,Gerardo Rodriguez
+Fecha de creacion,24-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema muestra correctamente los estudiantes con información incompleta.
+Condiciones de ejecucion,El usuario administrador ha iniciado sesión correctamente y existen estudiantes con información incompleta.
+Entrada,
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,Ingresar a la sección de estudiantes.,Se muestra la lista de estudiantes registrados,
+2,Visualizar la lista de estudiantes.,El sistema muestra los estudiantes e indica claramente los campos incompletos,
+
+Comentario de evaluacion,El sistema indica correctamente los campos incompletos en los estudiantes.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

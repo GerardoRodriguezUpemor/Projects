@@ -1,0 +1,21 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Visualización de historial de cambios de estado
+Autor del caso de prueba,Gerardo Rodriguez
+Fecha de creacion,24-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema permite visualizar correctamente el historial de cambios de estado de una postulación/estadía.
+Condiciones de ejecucion,El usuario administrador ha iniciado sesión correctamente y existen postulaciones/estadías con historial de cambios.
+Entrada,Seleccionar postulación/estadía existente
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,Ingresar a la sección de postulaciones/estadías.,Se muestra la lista de postulaciones/estadías registradas,
+2,Seleccionar una postulación/estadía registrada.,Se muestran los datos de la postulación/estadía seleccionada,
+3,Visualizar el historial de cambios de estado.,Se muestra correctamente el historial de cambios de estado,
+
+Comentario de evaluacion,El sistema permite visualizar correctamente el historial de cambios de estado.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

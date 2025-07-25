@@ -1,0 +1,21 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Fallo por formato incorrecto de datos
+Autor del caso de prueba,Gerardo Rodriguez
+Fecha de creacion,24-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema no permite registrar una oferta con datos en formato incorrecto.
+Condiciones de ejecucion,El usuario administrador ha iniciado sesión correctamente.
+Entrada,Título: 'Desarrollador Jr.', Empresa: 'Tech Solutions', Descripción: 'Desarrollo de software', Requisitos: 'Conocimientos en Java', Fecha de inicio: '2025-13-01', Fecha de fin: '2025-31-12'
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,Ingresar a la sección de registro de ofertas.,Se muestra el formulario de registro de ofertas,
+2,Llenar los campos con datos en formato incorrecto.,El sistema detecta los datos incorrectos,
+3,Hacer clic en 'Registrar'.,El sistema muestra mensajes de error por formato incorrecto y no permite el registro,
+
+Comentario de evaluacion,El sistema valida el formato de los datos antes de registrar una oferta.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

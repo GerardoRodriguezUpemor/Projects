@@ -1,0 +1,20 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Fallo por contraseña incorrecta administrador
+Autor del caso de prueba,Gerardo Rodriguez
+Fecha de creacion,24-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema no permite el acceso con una contraseña incorrecta para el usuario administrador.
+Condiciones de ejecucion,El usuario debe estar registrado como administrador en el sistema.
+Entrada,Usuario válido y contraseña incorrecta.
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,El usuario accede a la página de inicio de sesión.,Se muestra el formulario de inicio de sesión,
+2,El usuario ingresa un usuario válido y una contraseña incorrecta y pulsa iniciar sesión.,El sistema muestra un mensaje de error y no permite el acceso,
+
+Comentario de evaluacion,El sistema valida correctamente la contraseña del administrador.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

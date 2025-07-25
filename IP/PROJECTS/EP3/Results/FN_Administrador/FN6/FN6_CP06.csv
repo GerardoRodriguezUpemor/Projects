@@ -1,0 +1,22 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Fallo por conexión perdida durante la exportación
+Autor del caso de prueba,Gerardo Rodriguez
+Fecha de creacion,24-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema muestra un error y no exporta las postulaciones si se pierde la conexión.
+Condiciones de ejecucion,El usuario administrador ha iniciado sesión correctamente y existen postulaciones registradas.
+Entrada,Seleccionar formato: 'CSV'
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,Ingresar a la sección de exportación de postulaciones.,Se muestra la opción de exportar postulaciones,
+2,Seleccionar el formato de exportación.,Se selecciona el formato 'CSV',
+3,Simular pérdida de conexión antes de exportar.,El sistema detecta la pérdida de conexión,
+4,Hacer clic en 'Exportar'.,El sistema muestra un mensaje de error por pérdida de conexión y no genera archivo,
+
+Comentario de evaluacion,El sistema maneja correctamente la pérdida de conexión durante la exportación de postulaciones.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

@@ -1,0 +1,19 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Filtrado y ordenamiento de resultados
+Autor del caso de prueba,Gerardo Rodriguez
+Fecha de creacion,24-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema permite filtrar y ordenar los resultados de búsqueda de ofertas.
+Condiciones de ejecucion,El estudiante debe estar registrado y autenticado en el sistema.
+Entrada,Realizar una búsqueda y aplicar filtros y ordenamientos.
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,El estudiante realiza una búsqueda y aplica filtros y ordenamientos.,El sistema muestra los resultados filtrados y ordenados según los criterios seleccionados,
+
+Comentario de evaluacion,El sistema implementa correctamente el filtrado y ordenamiento de resultados.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

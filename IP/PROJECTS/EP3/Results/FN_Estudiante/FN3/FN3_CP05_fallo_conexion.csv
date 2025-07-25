@@ -1,0 +1,20 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Fallo por conexión perdida durante la búsqueda
+Autor del caso de prueba,Gerardo Rodriguez
+Fecha de creacion,24-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema informa correctamente si se pierde la conexión durante la búsqueda de ofertas.
+Condiciones de ejecucion,El estudiante debe estar registrado y autenticado en el sistema.
+Entrada,Criterios de búsqueda válidos y simular pérdida de conexión.
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,El estudiante ingresa criterios válidos y pulsa buscar.,El sistema intenta realizar la búsqueda,
+2,Se pierde la conexión a la base de datos durante la búsqueda.,El sistema muestra un mensaje de error sobre la conexión,
+
+Comentario de evaluacion,El sistema informa correctamente los problemas de conexión durante la búsqueda.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

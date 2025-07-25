@@ -1,0 +1,20 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Registro de acciones en el sistema
+Autor del caso de prueba,Gerardo Rodriguez
+Fecha de creacion,24-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que las acciones realizadas sobre exportación de postulaciones quedan registradas correctamente en el sistema.
+Condiciones de ejecucion,El usuario administrador ha iniciado sesión correctamente y realiza acciones de exportación.
+Entrada,
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,Realizar acciones de exportación de postulaciones.,El sistema registra correctamente las acciones realizadas,
+2,Consultar el registro de acciones del sistema.,Las acciones quedan registradas en los logs/auditoría,
+
+Comentario de evaluacion,El sistema registra correctamente todas las acciones realizadas sobre exportación de postulaciones.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

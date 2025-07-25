@@ -1,0 +1,20 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Agregar proyecto con todos los campos válidos
+Autor del caso de prueba,Gerardo Rodriguez
+Fecha de creacion,23-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema permite agregar un proyecto con todos los campos correctamente llenados.
+Condiciones de ejecucion,El estudiante debe estar registrado y autenticado en el sistema.
+Entrada,Datos completos de un proyecto (nombre, descripcion, fecha, tecnologias, etc.)
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,El estudiante accede a la seccion de proyectos en su perfil.,Se muestra el formulario para agregar proyecto,
+2,El estudiante llena todos los campos requeridos y pulsa el boton guardar.,El sistema registra el proyecto y lo muestra en la lista de proyectos del perfil,
+
+Comentario de evaluacion,El sistema permite agregar el proyecto correctamente cuando todos los campos estan llenados.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

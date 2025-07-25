@@ -1,0 +1,21 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Búsqueda de estudiante por criterios válidos
+Autor del caso de prueba,Gerardo Rodriguez
+Fecha de creacion,24-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema permite buscar estudiantes utilizando criterios válidos.
+Condiciones de ejecucion,El usuario administrador ha iniciado sesión correctamente y existen estudiantes registrados.
+Entrada,Criterio de búsqueda: 'Nombre', 'Matrícula', etc.
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,Ingresar a la sección de estudiantes.,Se muestra la lista de estudiantes registrados,
+2,Ingresar un criterio de búsqueda válido.,El sistema filtra los estudiantes según el criterio ingresado,
+3,Buscar estudiante.,Se muestran los estudiantes que cumplen con el criterio de búsqueda,
+
+Comentario de evaluacion,El sistema permite buscar estudiantes utilizando criterios válidos.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

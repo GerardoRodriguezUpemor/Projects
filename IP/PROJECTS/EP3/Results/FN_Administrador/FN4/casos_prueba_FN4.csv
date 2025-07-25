@@ -1,0 +1,21 @@
+Caso de prueba,Descripción,Precondiciones,Entradas,Pasos,Resultado Esperado,Notas
+FN4.CP01,Visualización exitosa de postulaciones,El usuario administrador ha iniciado sesión correctamente y existen postulaciones registradas,,1. Ingresar a la sección de postulaciones.
+2. Visualizar la lista de postulaciones.,"Se muestra la lista completa de postulaciones registradas.",
+FN4.CP02,Visualización de detalles de postulación,El usuario administrador ha iniciado sesión correctamente y existe al menos una postulación registrada,"Seleccionar postulación existente",1. Ingresar a la sección de postulaciones.
+2. Seleccionar una postulación registrada.
+3. Visualizar los detalles de la postulación.,"Se muestran correctamente todos los detalles de la postulación seleccionada.",
+FN4.CP03,Filtrado de postulaciones por estado,El usuario administrador ha iniciado sesión correctamente y existen postulaciones con diferentes estados,"Seleccionar estado: 'Pendiente'",1. Ingresar a la sección de postulaciones.
+2. Seleccionar un estado para filtrar.
+3. Visualizar la lista filtrada.,"Se muestran solo las postulaciones con el estado seleccionado.",
+FN4.CP04,Ordenamiento de postulaciones,El usuario administrador ha iniciado sesión correctamente y existen varias postulaciones,,1. Ingresar a la sección de postulaciones.
+2. Ordenar la lista por fecha, estado u otro criterio.,"La lista de postulaciones se ordena correctamente según el criterio seleccionado.",
+FN4.CP05,Visualización sin postulaciones,El usuario administrador ha iniciado sesión correctamente y no existen postulaciones registradas,,1. Ingresar a la sección de postulaciones.,"El sistema muestra un mensaje indicando que no hay postulaciones registradas.",
+FN4.CP06,Fallo por conexión perdida al visualizar,El usuario administrador ha iniciado sesión correctamente y existen postulaciones registradas,,1. Ingresar a la sección de postulaciones.
+2. Simular pérdida de conexión al intentar visualizar.,"El sistema muestra un mensaje de error por pérdida de conexión y no muestra la información.",
+FN4.CP07,Visualización de postulaciones con información incompleta,El usuario administrador ha iniciado sesión correctamente y existen postulaciones con información incompleta,,1. Ingresar a la sección de postulaciones.
+2. Visualizar la lista de postulaciones.,"El sistema muestra las postulaciones e indica claramente los campos incompletos.",
+FN4.CP08,Verificación de mensajes de error claros,El usuario administrador ha iniciado sesión correctamente y se produce un error al visualizar postulaciones,,1. Ingresar a la sección de postulaciones.
+2. Provocar un error (conexión, datos incompletos, etc.).
+3. Observar los mensajes de error.,"Los mensajes de error son claros, específicos y ayudan al usuario a corregir el problema.",
+FN4.CP09,Registro de acciones en el sistema,El usuario administrador ha iniciado sesión correctamente y realiza acciones sobre postulaciones,,1. Realizar acciones de visualización, filtrado u ordenamiento de postulaciones.
+2. Consultar el registro de acciones del sistema.,"Las acciones realizadas quedan registradas correctamente en el sistema (logs/auditoría).",

@@ -1,0 +1,20 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Recuperación de contraseña
+Autor del caso de prueba,Gerardo Rodriguez
+Fecha de creacion,24-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema permite recuperar la contraseña de un usuario administrador.
+Condiciones de ejecucion,El usuario debe estar registrado como administrador en el sistema.
+Entrada,Correo electrónico o usuario registrado para recuperación.
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,El usuario accede a la opción de recuperación de contraseña.,El sistema solicita el correo o usuario registrado,
+2,El usuario ingresa los datos y solicita recuperación.,El sistema envía instrucciones para restablecer la contraseña,
+
+Comentario de evaluacion,El sistema permite recuperar la contraseña de forma segura.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

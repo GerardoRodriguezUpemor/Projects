@@ -1,0 +1,19 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Busqueda con campos vacíos
+Autor del caso de prueba,Gerardo Rodriguez
+Fecha de creacion,24-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema maneja correctamente la búsqueda con campos vacíos.
+Condiciones de ejecucion,El estudiante debe estar registrado y autenticado en el sistema.
+Entrada,Formulario de búsqueda sin ningún criterio ingresado.
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,El estudiante pulsa buscar sin ingresar ningún criterio.,El sistema muestra todas las ofertas disponibles o un mensaje solicitando al menos un criterio,
+
+Comentario de evaluacion,El sistema maneja correctamente la búsqueda sin criterios.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

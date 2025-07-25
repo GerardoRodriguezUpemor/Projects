@@ -1,0 +1,19 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Visualización de detalles de oferta
+Autor del caso de prueba,Gerardo Rodriguez
+Fecha de creacion,24-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema permite visualizar los detalles de una oferta seleccionada.
+Condiciones de ejecucion,El estudiante debe estar registrado y autenticado en el sistema y debe existir al menos una oferta.
+Entrada,Selección de una oferta de la lista.
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,El estudiante selecciona una oferta de la lista.,El sistema muestra los detalles completos de la oferta seleccionada,
+
+Comentario de evaluacion,El sistema muestra correctamente la información detallada de la oferta.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

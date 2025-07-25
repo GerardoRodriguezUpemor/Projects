@@ -1,0 +1,20 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Agregar proyecto al perfil de estudiante
+Autor del caso de prueba,Gerardo Rodriguez
+Fecha de creacion,23-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema permite eliminar un proyecto del perfil del estudiante.
+Condiciones de ejecucion,El estudiante debe estar registrado y tener al menos un proyecto en su perfil.
+Entrada,Seleccion de un proyecto existente para eliminar
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,El estudiante accede a la lista de proyectos en su perfil.,Se muestra la lista de proyectos registrados,
+2,El estudiante selecciona un proyecto y pulsa el boton eliminar.,El sistema elimina el proyecto seleccionado y lo retira de la lista de proyectos,
+
+Comentario de evaluacion,El sistema permite eliminar correctamente un proyecto del perfil del estudiante.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

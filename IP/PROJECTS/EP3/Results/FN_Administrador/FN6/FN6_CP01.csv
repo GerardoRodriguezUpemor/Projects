@@ -1,0 +1,21 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Exportación exitosa de postulaciones
+Autor del caso de prueba,Gerardo Rodriguez
+Fecha de creacion,24-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema permite exportar correctamente las postulaciones registradas.
+Condiciones de ejecucion,El usuario administrador ha iniciado sesión correctamente y existen postulaciones registradas.
+Entrada,Seleccionar formato: 'CSV'
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,Ingresar a la sección de exportación de postulaciones.,Se muestra la opción de exportar postulaciones,
+2,Seleccionar el formato de exportación.,Se selecciona el formato 'CSV',
+3,Hacer clic en 'Exportar'.,El sistema genera y descarga el archivo con las postulaciones exportadas en el formato seleccionado,
+
+Comentario de evaluacion,El sistema permite exportar correctamente las postulaciones registradas.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

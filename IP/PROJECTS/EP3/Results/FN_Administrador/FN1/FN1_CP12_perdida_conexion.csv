@@ -1,0 +1,19 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Fallo por pérdida de conexión a base de datos
+Autor del caso de prueba,Gerardo Rodriguez
+Fecha de creacion,24-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema informa correctamente si se pierde la conexión a la base de datos durante el inicio de sesión.
+Condiciones de ejecucion,El usuario debe estar registrado como administrador en el sistema.
+Entrada,Usuario y contraseña válidos, simular pérdida de conexión.
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,El usuario intenta iniciar sesión y se pierde la conexión a la base de datos.,El sistema muestra un mensaje de error sobre la conexión y no permite el acceso,
+
+Comentario de evaluacion,El sistema informa correctamente los problemas de conexión.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

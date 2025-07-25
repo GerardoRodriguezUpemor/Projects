@@ -1,0 +1,68 @@
+Caso de prueba,Descripcion
+FN1.CP01,Inicio de sesión válido para usuario administrador
+FN1.CP02,Fallo por usuario incorrecto administrador
+FN1.CP03,Fallo por contraseña incorrecta administrador
+FN1.CP04,Fallo por campos vacíos
+FN1.CP05,Fallo por formato incorrecto de usuario
+FN1.CP06,Fallo por formato incorrecto de contraseña
+FN1.CP07,Fallo por usuario bloqueado
+FN1.CP08,Fallo por sesión duplicada
+FN1.CP09,Fallo por expiración de sesión
+FN1.CP10,Recuperación de contraseña
+FN1.CP11,Redireccionamiento correcto tras inicio de sesión
+FN1.CP12,Fallo por pérdida de conexión a base de datos
+FN1.CP13,Verificación de mensajes de error claros y accesibles
+FN1.CP14,Verificación de logs de intentos de acceso
+FN2.CP01,Registro exitoso de empresa
+FN2.CP02,Fallo por campos obligatorios vacíos
+FN2.CP03,Fallo por formato incorrecto de datos
+FN2.CP04,Fallo por empresa duplicada
+FN2.CP05,Edición de empresa registrada
+FN2.CP06,Eliminación de empresa registrada
+FN2.CP07,Visualización de empresas registradas
+FN2.CP08,Fallo por conexión perdida al registrar
+FN2.CP09,Verificación de mensajes de error claros
+FN2.CP10,Registro de acciones en el sistema
+FN3.CP01,Registro exitoso de oferta
+FN3.CP02,Fallo por campos obligatorios vacíos
+FN3.CP03,Fallo por formato incorrecto de datos
+FN3.CP04,Fallo por oferta duplicada
+FN3.CP05,Edición de oferta registrada
+FN3.CP06,Eliminación de oferta registrada
+FN3.CP07,Visualización de ofertas registradas
+FN3.CP08,Fallo por conexión perdida al registrar
+FN3.CP09,Verificación de mensajes de error claros
+FN3.CP10,Registro de acciones en el sistema
+FN4.CP01,Visualización exitosa de postulaciones
+FN4.CP02,Visualización de detalles de postulación
+FN4.CP03,Filtrado de postulaciones por estado
+FN4.CP04,Ordenamiento de postulaciones
+FN4.CP05,Visualización sin postulaciones
+FN4.CP06,Fallo por conexión perdida al visualizar
+FN4.CP07,Visualización de postulaciones con información incompleta
+FN4.CP08,Verificación de mensajes de error claros
+FN4.CP09,Registro de acciones en el sistema
+FN5.CP01,Actualización exitosa de estado de postulación/estadía
+FN5.CP02,Visualización de historial de cambios de estado
+FN5.CP03,Notificación al estudiante por cambio de estado
+FN5.CP04,Fallo por campos obligatorios vacíos en actualización
+FN5.CP05,Fallo por conexión perdida al actualizar
+FN5.CP06,Verificación de mensajes de error claros
+FN5.CP07,Registro de acciones en el sistema
+FN5.CP08,Visualización de postulaciones/estadías sin seguimiento
+FN6.CP01,Exportación exitosa de postulaciones
+FN6.CP02,Exportación con filtrado de postulaciones
+FN6.CP03,Exportación con campos personalizados
+FN6.CP04,Fallo por ausencia de postulaciones
+FN6.CP05,Fallo por formato incorrecto de archivo
+FN6.CP06,Fallo por conexión perdida durante la exportación
+FN6.CP07,Verificación de mensajes de error claros
+FN6.CP08,Registro de acciones en el sistema
+FN7.CP01,Visualización exitosa de información de estudiante
+FN7.CP02,Búsqueda de estudiante por criterios válidos
+FN7.CP03,Visualización de lista de estudiantes
+FN7.CP04,Filtrado y ordenamiento de estudiantes
+FN7.CP05,Visualización de estudiantes con información incompleta
+FN7.CP06,Fallo por conexión perdida al visualizar
+FN7.CP07,Verificación de mensajes de error claros
+FN7.CP08,Registro de acciones en el sistema

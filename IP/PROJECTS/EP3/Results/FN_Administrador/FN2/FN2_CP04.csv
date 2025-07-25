@@ -1,0 +1,21 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Fallo por empresa duplicada
+Autor del caso de prueba,Gerardo Rodriguez
+Fecha de creacion,24-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema no permite registrar una empresa duplicada.
+Condiciones de ejecucion,El usuario administrador ha iniciado sesión correctamente y existe una empresa registrada con el mismo RFC.
+Entrada,Nombre de empresa: 'Tech Solutions', RFC: 'TSO123456789', Dirección: 'Calle 1', Teléfono: '5551234567', Email: 'info@techsolutions.com'
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,Ingresar a la sección de registro de empresas.,Se muestra el formulario de registro de empresas,
+2,Llenar los campos con datos de una empresa ya registrada.,El sistema detecta la duplicidad,
+3,Hacer clic en 'Registrar'.,El sistema muestra un mensaje de error indicando que la empresa ya existe y no permite el registro duplicado,
+
+Comentario de evaluacion,El sistema valida que no se puedan registrar empresas duplicadas.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

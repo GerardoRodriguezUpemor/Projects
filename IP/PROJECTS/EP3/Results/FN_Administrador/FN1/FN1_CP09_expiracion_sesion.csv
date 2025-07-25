@@ -1,0 +1,19 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Fallo por expiración de sesión
+Autor del caso de prueba,Gerardo Rodriguez
+Fecha de creacion,24-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema cierra la sesión del usuario administrador tras un periodo de inactividad.
+Condiciones de ejecucion,El usuario debe estar registrado como administrador y haber iniciado sesión.
+Entrada,Usuario válido y contraseña válida, luego inactividad prolongada.
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,El usuario inicia sesión y permanece inactivo por un periodo prolongado.,El sistema cierra la sesión automáticamente y solicita volver a iniciar sesión,
+
+Comentario de evaluacion,El sistema gestiona correctamente la expiración de sesión por inactividad.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

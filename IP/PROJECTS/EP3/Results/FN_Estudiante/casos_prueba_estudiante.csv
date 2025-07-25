@@ -1,0 +1,45 @@
+Caso de prueba,Descripcion
+FN1.CP01,Inicio de sesion valido para usuario estudiante
+FN1.CP02,Fallo por usuario incorrecto estudiante
+FN1.CP03,Fallo por contrasena incorrecta estudiante
+FN1.CP04,Fallo por campos vacios
+FN1.CP05,Fallo por formato incorrecto de usuario
+FN1.CP06,Fallo por formato incorrecto de contrasena
+FN1.CP07,Fallo por usuario bloqueado
+FN1.CP08,Fallo por sesion duplicada
+FN1.CP09,Fallo por expiracion de sesion
+FN1.CP10,Recuperacion de contrasena
+FN1.CP11,Redireccionamiento correcto tras inicio de sesion
+FN1.CP12,Fallo por perdida de conexion a base de datos
+FN1.CP13,Verificacion de mensajes de error claros y accesibles
+FN1.CP14,Verificacion de logs de intentos de acceso
+FN2.CP01,Agregar proyecto con todos los campos válidos
+FN2.CP02,Agregar proyecto con campos opcionales vacíos
+FN2.CP03,Agregar proyecto con nombre duplicado
+FN2.CP04,Agregar proyecto con formato de fecha incorrecto
+FN2.CP05,Agregar proyecto con descripción muy larga
+FN2.CP06,Agregar proyecto con caracteres especiales en el nombre
+FN2.CP07,Agregar proyecto sin seleccionar categoría
+FN2.CP08,Agregar proyecto con usuario no autenticado
+FN2.CP09,Agregar proyecto con conexión a base de datos interrumpida
+FN2.CP10,Agregar proyecto y verificar mensaje de éxito
+FN3.CP01,Busqueda de ofertas con criterios validos
+FN3.CP02,Visualizacion de detalles de oferta
+FN3.CP03,Busqueda sin resultados
+FN3.CP04,Busqueda con campos vacios
+FN3.CP05,Fallo por conexion perdida durante la busqueda
+FN3.CP06,Visualizacion de ofertas expiradas o no disponibles
+FN3.CP07,Visualizacion de ofertas con informacion incompleta
+FN3.CP08,Paginacion y navegacion de resultados
+FN3.CP09,Filtrado y ordenamiento de resultados
+FN3.CP10,Verificacion de mensajes de error claros
+FN4.CP01,Postulacion exitosa a oferta valida
+FN4.CP02,Fallo por campos obligatorios vacios
+FN4.CP03,Fallo por oferta expirada o no disponible
+FN4.CP04,Fallo por duplicidad de postulacion
+FN4.CP05,Fallo por conexion perdida al postularse
+FN4.CP06,Visualizacion de estado de postulacion
+FN4.CP07,Edicion de postulacion enviada
+FN4.CP08,Eliminacion de postulacion
+FN4.CP09,Verificacion de mensajes de error claros
+FN4.CP10,Registro de postulaciones en el sistema

@@ -1,0 +1,22 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Actualización exitosa de estado de postulación/estadía
+Autor del caso de prueba,Gerardo Rodriguez
+Fecha de creacion,24-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema permite actualizar correctamente el estado de una postulación/estadía.
+Condiciones de ejecucion,El usuario administrador ha iniciado sesión correctamente y existe al menos una postulación/estadía registrada.
+Entrada,Seleccionar postulación/estadía existente, nuevo estado: 'Aprobado'
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,Ingresar a la sección de postulaciones/estadías.,Se muestra la lista de postulaciones/estadías registradas,
+2,Seleccionar una postulación/estadía registrada.,Se muestran los datos de la postulación/estadía seleccionada,
+3,Cambiar el estado a 'Aprobado'.,El nuevo estado se actualiza en el formulario,
+4,Guardar los cambios.,El estado de la postulación/estadía se actualiza correctamente y se refleja en la lista,
+
+Comentario de evaluacion,El sistema permite actualizar correctamente el estado de una postulación/estadía.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

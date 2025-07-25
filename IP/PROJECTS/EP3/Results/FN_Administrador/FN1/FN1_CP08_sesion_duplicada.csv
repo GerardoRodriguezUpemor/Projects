@@ -1,0 +1,19 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Fallo por sesión duplicada
+Autor del caso de prueba,Gerardo Rodriguez
+Fecha de creacion,24-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema no permite iniciar sesión si ya existe una sesión activa para el usuario administrador.
+Condiciones de ejecucion,El usuario debe estar registrado como administrador y tener una sesión activa.
+Entrada,Usuario válido y contraseña válida con sesión activa.
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,El usuario intenta iniciar sesión mientras ya tiene una sesión activa.,El sistema muestra un mensaje de error indicando sesión duplicada,
+
+Comentario de evaluacion,El sistema previene correctamente sesiones duplicadas.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

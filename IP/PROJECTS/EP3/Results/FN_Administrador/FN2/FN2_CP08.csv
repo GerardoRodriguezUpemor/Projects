@@ -1,0 +1,22 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Fallo por conexión perdida al registrar
+Autor del caso de prueba,Gerardo Rodriguez
+Fecha de creacion,24-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema muestra un error y no registra la empresa si se pierde la conexión.
+Condiciones de ejecucion,El usuario administrador ha iniciado sesión correctamente.
+Entrada,Nombre de empresa: 'Tech Solutions', RFC: 'TSO123456789', Dirección: 'Calle 1', Teléfono: '5551234567', Email: 'info@techsolutions.com'
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,Ingresar a la sección de registro de empresas.,Se muestra el formulario de registro de empresas,
+2,Llenar todos los campos obligatorios con datos válidos.,Los datos se ingresan correctamente,
+3,Simular pérdida de conexión antes de registrar.,El sistema detecta la pérdida de conexión,
+4,Hacer clic en 'Registrar'.,El sistema muestra un mensaje de error por pérdida de conexión y no realiza el registro,
+
+Comentario de evaluacion,El sistema maneja correctamente la pérdida de conexión durante el registro de empresas.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

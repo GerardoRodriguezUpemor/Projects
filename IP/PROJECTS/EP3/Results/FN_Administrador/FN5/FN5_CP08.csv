@@ -1,0 +1,20 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Visualización de postulaciones/estadías sin seguimiento
+Autor del caso de prueba,Gerardo Rodriguez
+Fecha de creacion,24-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema permite visualizar correctamente las postulaciones/estadías que no tienen seguimiento.
+Condiciones de ejecucion,El usuario administrador ha iniciado sesión correctamente y existen postulaciones/estadías sin seguimiento.
+Entrada,
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,Ingresar a la sección de postulaciones/estadías.,Se muestra la lista de postulaciones/estadías registradas,
+2,Filtrar o visualizar las que no tienen seguimiento.,El sistema muestra correctamente las postulaciones/estadías que no tienen seguimiento,
+
+Comentario de evaluacion,El sistema permite visualizar correctamente las postulaciones/estadías sin seguimiento.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

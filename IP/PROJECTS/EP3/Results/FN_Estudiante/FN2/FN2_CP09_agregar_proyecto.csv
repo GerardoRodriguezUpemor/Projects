@@ -1,0 +1,20 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Agregar proyecto con conexión a base de datos interrumpida
+Autor del caso de prueba,Gerardo Rodriguez
+Fecha de creacion,23-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema maneja correctamente la pérdida de conexión a la base de datos al agregar un proyecto.
+Condiciones de ejecucion,El estudiante debe estar registrado y autenticado en el sistema.
+Entrada,Datos de proyecto válidos pero con la base de datos desconectada.
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,El estudiante accede a la sección de proyectos en su perfil.,Se muestra el formulario para agregar proyecto,
+2,El estudiante llena los campos y pulsa guardar durante una interrupción de la base de datos.,El sistema muestra un mensaje de error sobre la conexión y no guarda el proyecto,
+
+Comentario de evaluacion,El sistema informa correctamente los problemas de conexión.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

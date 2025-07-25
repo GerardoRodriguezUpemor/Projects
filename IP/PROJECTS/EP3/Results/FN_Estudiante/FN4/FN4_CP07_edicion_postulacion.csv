@@ -1,0 +1,19 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Edición de postulación enviada
+Autor del caso de prueba,Gerardo Rodriguez
+Fecha de creacion,24-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema permite editar una postulación ya enviada.
+Condiciones de ejecucion,El estudiante debe estar registrado y autenticado en el sistema y haber realizado una postulación.
+Entrada,Acceso a la sección de postulaciones y selección de una postulación enviada.
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,El estudiante selecciona una postulación enviada y edita los datos.,El sistema actualiza la postulación y muestra los cambios realizados,
+
+Comentario de evaluacion,El sistema permite editar correctamente las postulaciones enviadas.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,

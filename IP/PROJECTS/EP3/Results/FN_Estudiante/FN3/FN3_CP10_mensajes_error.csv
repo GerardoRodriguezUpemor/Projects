@@ -1,0 +1,19 @@
+Nombre del sistema/proyecto,Upework
+Requisito a probar,Verificación de mensajes de error claros
+Autor del caso de prueba,Gerardo Rodriguez
+Fecha de creacion,24-jul-25
+Ejecutor del caso de prueba,n/a
+Fecha de ejecucion,n/a
+
+Objetivo,Verificar que el sistema muestra mensajes de error claros y comprensibles durante la búsqueda de ofertas.
+Condiciones de ejecucion,El estudiante debe estar registrado y autenticado en el sistema.
+Entrada,Realizar acciones que generen errores en la búsqueda de ofertas.
+
+No.,Accion,Resultado esperado,Resultado obtenido
+1,El estudiante realiza una búsqueda que genera un error.,El sistema muestra un mensaje de error claro y comprensible,
+
+Comentario de evaluacion,El sistema comunica correctamente los errores al usuario.
+Aprobo,____
+Fallo,____
+Acciones correctivas,
+Fecha de aprobacion del caso de prueba,
